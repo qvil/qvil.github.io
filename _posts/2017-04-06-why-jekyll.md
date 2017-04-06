@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Jekyll] 블로그 프레임워크 비교, 왜 지킬인가? (feat. jekyll, hexo, hugo)"
+title:  "[Jekyll] 블로그 프레임워크 비교, 왜 지킬인가? (Feat. Jekyll, Hexo, Hugo)"
 date:   2017-04-06 13:33:43 +0900
 categories: jekyll
 ---
