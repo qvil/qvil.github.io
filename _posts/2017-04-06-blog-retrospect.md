@@ -3,6 +3,8 @@ layout: post
 title:  "[Blog] 블로그 회고록"
 date:   2017-04-06 15:13:00 +0900
 categories: jekyll blog
+tags: blog jekyll
+comments: true
 ---
 
 * Table of Contents
