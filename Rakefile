@@ -9,6 +9,7 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'posts/blog' => File.join(SOURCE, "_posts/blog"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -47,6 +48,10 @@ task :post do
   title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
+  filepath= "#{CONFIG['posts']}"
+  excerpt = ENV["excerpt"] || ""
+  comments = ENV["comments"] || true
+  share = ENV["share"] || true
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
@@ -55,7 +60,7 @@ task :post do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  filename = File.join(filepath, "#{date}-#{slug}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -65,11 +70,17 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts "date: #{date}"
-    post.puts "category: #{category}"
+    post.puts "excerpt: \"#{excerpt}\""
+    post.puts "modified: #{date}"
+    post.puts "categories: #{category}"
     post.puts "tags: #{tags}"
+    post.puts "image:"
+    post.puts "  feature: #/images/image.jpg"
+    post.puts "  credit: #WeGraphics"
+    post.puts "  creditlink: "#http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+    post.puts "comments: #{comments}"
+    post.puts "share: #{share}"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
   end
 end # task :post
 
