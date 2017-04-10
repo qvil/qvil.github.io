@@ -5,7 +5,7 @@ locale: en_KR
 description: Describe your website here.
 logo: site-logo.png
 search: true
-url: https://qvil.github.io/
+url: https://qvil.github.io
 
 # Jekyll configuration
 
