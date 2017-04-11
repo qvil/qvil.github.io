@@ -42,10 +42,25 @@ module JB
 end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"] [excerpt="description"] [comment=false] [share=false]
+##############################################
+# Customized by tshyeon_170411
+
+# @name {string} Filename.
+# @title {string} Post Title.
+# @tags {array, string} Multiple tags are possible.
+# @excerpt {string} Exceprt of file. Simple description.
+
+# @comments {boolean} true or false.
+# @share {boolean} true or false.
+# @category {string} Category of file.
+
+# Usage: rake post name="firebase-database-redux233" title="[Redux, Firebase] Firebase Database를 Redux state 업데이트하기" tags=[redux,firebase] excerpt="Firebase의 Database를 Redux에서 컨트롤 하는 방법"
+##############################################
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
-  title = ENV["title"] || "new-post"
+  name = ENV["name"] || "new-post"
+  title = ENV["title"] || ""
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
   filepath= "#{CONFIG['posts']}"
@@ -53,8 +68,9 @@ task :post do
   comments = ENV["comments"] || true
   share = ENV["share"] || true
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  slug = name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
+    currentTime = Time.now
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
   rescue => e
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
@@ -71,7 +87,7 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "excerpt: \"#{excerpt}\""
-    post.puts "modified: #{date}"
+    post.puts "modified: #{currentTime}"
     post.puts "categories: #{category}"
     post.puts "tags: #{tags}"
     post.puts "image:"
