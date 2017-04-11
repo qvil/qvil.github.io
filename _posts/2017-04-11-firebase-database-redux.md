@@ -34,6 +34,6 @@ share: true
 ## 결론
 
 **`Component`에서 `on()`이나 `once()`메소드로 이벤트를 관찰하고 해당 콜백함수에서 Action을 Dispatch하는 방법으로 Redux의 State를 변경해야 한다.** 
-물론 내가 만드는 App의 경우이고 다른 예제를 보면 Firebase를 Core로 분리하여 처리하기도 하지만 가장 중요한 것은
+물론 내가 만드는 App의 경우이고 [다른 예제(r-park/todo-react-redux)](https://github.com/r-park/todo-react-redux)를 보면 Firebase를 Core로 분리하여 처리하기도 하지만 가장 중요한 것은
 * 어플리케이션에서 State를 직접 변경 할 수 없다.
 * State를 변경하기 위해서는 Action이 Dispatch되어야 한다.
