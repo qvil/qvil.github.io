@@ -21,23 +21,8 @@ share: true
 
 아래 코드를 .gitconfig에 붙여 넣는다. 
 
-```sh
-[alias]
-lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
-lg = !"git lg1 -10"
+<script src="https://gist.github.com/qvil/d8d4efca409f0f4f1e825f9535ca7476.js"></script>
 
-co = checkout
-br = branch
-ci = commit
-st = status
-unstage = reset HEAD --
-last = log -1 HEAD
-        tlg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold red)%h%C(reset) : %C(bold green)(%ar)%C(reset) - %C(cyan)\\<%an\\>%C(reset)%C(bold yellow)%d%C(reset)%n%n%w(90,1,2)%C(white)%B%C(reset)%n'
-[user]
-        email = qvil1127@gmail.com
-        name = tshyeon
-```
 커맨드 라인에 입력
 ```
 $ git config --global alias.tlg "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold red)%h%C(reset) : %C(bold green)(%ar)%C(reset) - %C(cyan)\<%an\>%C(reset)%C(bold yellow)%d%C(reset)%n%n%w(90,1,2)%C(white)%B%C(reset)%n'"
