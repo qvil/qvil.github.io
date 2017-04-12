@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Blog] 블로그 회고록"
-date:   2017-04-06 15:13:00 +0900
+date:   2017-04-12 11:13:00 +0900
 categories: jekyll blog
 tags: blog jekyll
 comments: true
@@ -72,3 +72,12 @@ TIL을 공유하고싶다. 특히 구글검색에 노출되도록(개발자는 �
 1. Github Page에서 정식으로 Jekyll도 지원하니 나도 그렇게 사용하자.
 2. 예쁜 테마보다는 글에 집중하자.
 3. 필요한 기능(댓글, 검색 등)이 있다면 플러그인을 사용하거나 직접 구현하자.
+
+## 추가
+
+[Google 블로그 검색](http://blogsearch.google.co.kr/ping)에 사이트를 추가했는데 구글에서 검색이 될지 모르겠다.
+
+<figure>
+	<img src="/images/google-blog-search.png" alt="image">
+	<figcaption>Google 블로그 검색</figcaption>
+</figure>
