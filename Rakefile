@@ -54,16 +54,19 @@ end #JB
 # @share {boolean} true or false.
 # @category {string} Category of file.
 
-# Usage: rake post name="firebase-database-redux233" title="[Redux, Firebase] Firebase Database를 Redux state 업데이트하기" tags=[redux,firebase] excerpt="Firebase의 Database를 Redux에서 컨트롤 하는 방법"
+# Simple Usage: rake post
+# Advanced Usage: rake post dir="blog" name="file-name" title="title" tags=[redux,firebase] excerpt="explain"
 ##############################################
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
-  abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+  dir = ENV["dir"] || ""
+  filepath= "#{CONFIG['posts']}"+"/#{dir}"
+  Dir.mkdir("#{filepath}") unless Dir.exists?("#{filepath}")
+  abort("rake aborted: '#{filepath}' directory not found.") unless FileTest.directory?(filepath)
   name = ENV["name"] || "new-post"
   title = ENV["title"] || ""
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
-  filepath= "#{CONFIG['posts']}"
   excerpt = ENV["excerpt"] || ""
   comments = ENV["comments"] || true
   share = ENV["share"] || true
