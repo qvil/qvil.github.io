@@ -35,8 +35,17 @@ share: true
     작성하신 문서에 원하는 링크를 사용하시면 됩니다.
 
 - Embed : HTML `<script>`태그 형식의 링크를 보여줍니다. 블로그 등 다른 사이트에서 Embed script태그를 지원한다면 문서가 Gist대로 보여집니다. 아래 사진은 제 블로그에 Gist를 적용한 예제입니다.
-![](/images/gist-embed-example.png)
-![](/images/gist-embed.png)
+
+<figure class="half">
+  <a href="/images/gist-embed-example.png">
+	  <img src="/images/gist-embed-example.png" alt="image">
+  </a>
+  <a href="/images/gist-embed.png">
+	  <img src="/images/gist-embed.png" alt="image">
+  </a>
+	<figcaption>Embed Gist 예제</figcaption>
+</figure>
+
 - Share : 문자 그대로 해당 Gist 공유용 링크
 - Clone Via
   - HTTPS : HTTPS를 이용한 Gist 저장소 주소를 보여줍니다. 이 주소를 통해 `Clone`해서 git으로 버전관리할 수 있습니다.
