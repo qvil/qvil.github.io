@@ -3,6 +3,8 @@
 - title: Home
   url: /
 
+- title: About
+  url: https://about.me/taesu
 # - title: Articles
 #   url: /articles/
 
@@ -17,6 +19,3 @@
 
 - title: Search
   url: /search/
-
-- title: About
-  url: https://about.me/taesu
