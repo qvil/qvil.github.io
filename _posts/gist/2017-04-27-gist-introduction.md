@@ -2,7 +2,8 @@
 layout: post
 title: "[Gist] Gist란 무엇인가?"
 excerpt: "Gist를 이용해서 정보가 구식이 되는 것(outdated)을 방지해보자"
-modified: 2017-04-27 11:10:26 +0900
+created: 2017-04-27 11:10:26 +0900
+date: 2017-04-27 14:10:26 +0900
 categories: "gist"
 tags: [gist,github]
 image:

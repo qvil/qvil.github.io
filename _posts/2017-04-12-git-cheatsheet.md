@@ -2,7 +2,8 @@
 layout: post
 title: "[Git] Cheat Sheet"
 excerpt: "[Gist]Git Command & Tip"
-modified: 2017-04-27 09:47:00 +0900
+created: 2017-04-12 09:47:00 +0900
+date: 2017-04-27 09:47:00 +0900
 categories: 
 tags: [git,gist]
 image:
