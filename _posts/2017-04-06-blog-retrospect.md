@@ -52,6 +52,25 @@ TIL을 공유하고싶다. 특히 구글검색에 노출되도록(개발자는 �
 	<figcaption>Google 검색</figcaption>
 </figure>
 
+## 호스팅이 간편했으면 좋겠다.
+
+### Github Page + Jekyll 
+- 장점
+    - 좀 더 개발자스럽다. + God Github! 현재 사용 중.
+- 단점
+    - 위의 개발자스러운 점이 내 노트북이 없으면 불편해지는...
+    - 개발자스럽게 학습기회비용이 있다. 메뉴 만지고 커스터마이징하는데(html, css, js는 기본에 scss나 Rakefile, Ruby, Liquid템플릿 언어까지)
+
+### [Wordpress.com][Wordpress.com] 
+- 장점
+    - 편하다. 위 지킬의 플랫폼을 가리는 특성이 없다.(웹에서 작성)
+    - 다양한 플러그인 및 
+    - 위젯 커스터마이징
+- 단점
+    - 많이 안 써봐서 아직 크게 모르겠다.
+- 결론
+    - 써봐도 괜찮겠다는 생각이 든다. 특히 김태곤님이 쓰신 [Automattic의 채용 과정 - 한 자바스크립트 엔지니어의 입사기](https://taegon.kim/archives/5678)를 읽으니 더욱 솔깃하다. 특히 [Calypso](https://ma.tt/2015/11/dance-to-calypso/)라는 프로젝트(Node.js와 React 기술을 사용한 워드프레스의 새로운 관리자 인터페이스) [^1] (각주가 안되나?)얘기를 들으니 더욱 솔깃하다.
+
 # 과정
 
 ## 흥미로운 테마(시간 많이 소모됨)
@@ -95,6 +114,23 @@ TIL을 공유하고싶다. 특히 구글검색에 노출되도록(개발자는 �
 - Github Page에서 정식으로 Jekyll도 지원하니 나도 그렇게 사용하자.
 - 예쁜 테마보다는 글에 집중하자.
 - 필요한 기능(댓글, 검색 등)이 있다면 플러그인을 사용하거나 직접 구현하자.
-- Wordpress [설치형(.org)](https://wordpress.org) 말고 [서비스형(.com)](https://wordpress.com) 써봤는데 나쁘지 않은 것 같다.
+- Wordpress [설치형(.org)][Wordpress.org] 말고 [서비스형(.com)][Wordpress.com] 써봤는데 나쁘지 않은 것 같다.
     - 쓰기 쉬워서 글에만 집중할 수 있다.
-    - 더 깊게 보진 않았지만 **내가 써본 테마는 코드블럭이 지원이 안돼서** <del>귀찮아서 방치</del>
+    - 더 깊게 보진 않았지만 <del>내가 써본 테마는 코드블럭이 지원이 안돼서</del>(귀찮아서) 방치
+        - 잠깐 찾아봤는데 역시 있구나 [WordPress.com에서 예쁘게 소스 코드 삽입하기](https://kalkin7.wordpress.com/2014/05/01/posting-source-code-on-wordpress-com-blog/)
+        - Shortcode라는 플러그인을 사용하면 된다.(기본으로 사용 설정 되어 있음.)
+        
+```
+[code language="javascript"]
+var i=1;
+
+console.log("asdf"+i);
+[/code]
+```
+
+<!-- Link -->
+[Wordpress.com]: https://wordpress.com
+[Wordpress.org]: https://wordpress.org
+
+ <!-- 각주 -->
+ [^1]: Node.js와 React 기술을 사용한 워드프레스의 새로운 관리자 인터페이스
