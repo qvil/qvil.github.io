@@ -55,13 +55,15 @@ share: true
 
 ## Embed한 사이트에서 TOC제대로 동작 안하는 문제
 
-![](/images/gist-toc-github.png)
-
-    Github에서는 TOC가 잘 동작.
-
-![](/images/gist-toc-blog.png)
-
-    Embed한 사이트에서는 TOC가 눌러도 동작 안함.
+<figure class="half">
+  <a href="/images/gist-toc-github.png">
+	  <img src="/images/gist-toc-github.png" alt="image">
+  </a>
+  <a href="/images/gist-toc-blog.png">
+	  <img src="/images/gist-toc-blog.png" alt="image">
+  </a>
+	<figcaption>Github에서는 TOC가 잘 동작하지만 Embed한 사이트에서는 TOC가 눌러도 동작 안함.</figcaption>
+</figure>
 
 >해당문제는 Gist의 문제라기 보다는 내 블로그와의 TOC 호환성 문제인 것 같다.
 
