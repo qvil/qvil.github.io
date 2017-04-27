@@ -2,7 +2,8 @@
 layout: post
 title: "gitconfig"
 excerpt: "[Git] gitconfig 파일로 단축키 및 환경 설정"
-modified: 2017-04-12 00:11:24 +0900
+created: 2017-04-12 00:11:24 +0900
+date: 2017-04-12 00:11:24 +0900
 categories: 
 tags: [git]
 image:

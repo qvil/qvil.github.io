@@ -2,7 +2,8 @@
 layout: post
 title: "[Firebase] Database와 Redux 함께 사용"
 excerpt: "Firebase의 Database를 Redux로 컨트롤 하는 방법"
-modified: 2017-04-11 14:16:47 +0900
+created: 2017-04-11 14:16:47 +0900
+date: 2017-04-11 14:16:47 +0900
 categories: 
 tags: [firebase,redux]
 image:

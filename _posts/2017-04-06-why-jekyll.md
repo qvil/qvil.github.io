@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "[Jekyll] 블로그 프레임워크 비교, 왜 지킬인가? (Feat. Jekyll, Hexo, Hugo)"
-date:   2017-04-06 13:33:43 +0900
-modified: 2017-04-07 13:33:43 +0900
+created: 2017-04-06 13:33:43 +0900
+date:   2017-04-07 13:33:43 +0900
 categories: blog
 tags: blog jekyll
 ---

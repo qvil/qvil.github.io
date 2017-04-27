@@ -2,7 +2,8 @@
 layout: post
 title: "롤 정글 치트시트"
 excerpt: "정글 루트를 분석해보자"
-modified: 2017-04-25 17:09:03 +0900
+created: 2017-04-25 17:09:03 +0900
+date: 2017-04-26 17:09:03 +0900
 categories: 
 tags: [lol]
 image:
