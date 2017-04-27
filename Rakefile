@@ -55,7 +55,7 @@ end #JB
 # @category {string} Category of file.
 
 # Simple Usage: rake post
-# Advanced Usage: rake post dir="blog" name="file-name" title="title" tags=[redux,firebase] excerpt="explain"
+# Advanced Usage: rake post dir="blog" name="file-name" title="title" excerpt="explain" tags=[redux,firebase]
 ##############################################
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
