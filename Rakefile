@@ -66,7 +66,7 @@ task :post do
   name = ENV["name"] || "new-post"
   title = ENV["title"] || ""
   tags = ENV["tags"] || "[]"
-  category = ENV["category"] || ""
+  category = dir || ""
   excerpt = ENV["excerpt"] || ""
   comments = ENV["comments"] || true
   share = ENV["share"] || true
