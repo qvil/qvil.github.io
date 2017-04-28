@@ -3,7 +3,7 @@ layout: post
 title:  "[Blog] 블로그 회고록"
 excerpt: "Feat. Jekyll, Hexo, Hugo, Wordpress, Blogger..."
 created:   2017-04-06 11:13:00 +0900
-date:   2017-04-27 14:39:00 +0900
+date:   2017-04-28 10:42:00 +0900
 categories: jekyll blog
 tags: blog jekyll
 image:
@@ -52,16 +52,18 @@ TIL을 공유하고싶다. 특히 구글검색에 노출되도록(개발자는 �
 	<figcaption>Google 검색</figcaption>
 </figure>
 
-## 호스팅이 간편했으면 좋겠다.
+## 블로그 서비스 종류
 
 ### Github Page + Jekyll 
 - 장점
     - 좀 더 개발자스럽다. + God Github! 현재 사용 중.
+    - Markdown문법으로 쓴 글을 Static Page로 생성만 해주는 서비스라 나중에 문서 백업이나 서비스 이전이 편할 것으로 예상됨.
 - 단점
     - 위의 개발자스러운 점이 내 노트북이 없으면 불편해지는...
+        - Docker Jekyll로 해결 가능하지 않을까?
     - 개발자스럽게 학습기회비용이 있다. 메뉴 만지고 커스터마이징하는데(html, css, js는 기본에 scss나 Rakefile, Ruby, Liquid템플릿 언어까지)
 
-### [Wordpress.com][Wordpress.com] 
+### [Wordpress 가입형][Wordpress.com]
 - 장점
     - 편하다. 위 지킬의 플랫폼을 가리는 특성이 없다.(웹에서 작성)
     - 다양한 플러그인 및 
@@ -70,6 +72,18 @@ TIL을 공유하고싶다. 특히 구글검색에 노출되도록(개발자는 �
     - 많이 안 써봐서 아직 크게 모르겠다.
 - 결론
     - 써봐도 괜찮겠다는 생각이 든다. 특히 김태곤님이 쓰신 [Automattic의 채용 과정 - 한 자바스크립트 엔지니어의 입사기](https://taegon.kim/archives/5678)를 읽으니 더욱 솔깃하다. 특히 [Calypso](https://ma.tt/2015/11/dance-to-calypso/)라는 프로젝트(Node.js와 React 기술을 사용한 워드프레스의 새로운 관리자 인터페이스) [^1] (각주가 안되나?)얘기를 들으니 더욱 솔깃하다.
+
+### [Wordpress 설치형][Wordpress.org]
+- 장점
+    - 가입형에 비해 자유도가 높다.
+    - **시놀로지에서 호스팅**하면 잠재성이 무궁무진하다.
+        - 용량 무제한, 시놀로지 워드프레스 플러그인으로 설치 간편함. 포토스테이션 사진 바로 포스팅 등
+- 단점
+    - 내가 직접 호스팅 및 관리를 신경써줘야 한다. (속도문제 포함)
+- 결론
+    - Crayon Syntax Highlighter 플러그인도 좋다.
+    - 끌리는데..?
+    - 시놀로지 전체를 백업하면 워드프레스도 자연스럽게 백업이..?
 
 # 과정
 
