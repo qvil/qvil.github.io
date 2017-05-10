@@ -3,7 +3,7 @@ layout: post
 title: "react router v4 사용법"
 excerpt: "react-router를 이용해서 페이지 화면전환을 해보자"
 created: 2017-05-09 15:55:05 +0900
-date: 2017-05-09 15:55:05 +0900
+date: 2017-05-10 22:28:05 +0900
 categories: "react"
 tags: [react,react-router]
 image:
@@ -15,6 +15,12 @@ share: true
 ---
 * Table of Contents
 {:toc}
+
+
+
+><a href="https://github.com/qvil/react-router-v4" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github: <https://github.com/qvil/react-router-v4>
+
+>Example: <https://react-router-v4.now.sh/>
 
 # React Router란?
 
@@ -105,3 +111,6 @@ http://localhost:3000/search?keyword=나
 
 - [react router official tutorial](https://reacttraining.com/react-router/web/guides/quick-start)
 - [velopert youtube lecture](https://www.youtube.com/watch?v=o6j8zi5mFIg&list=PL9FpF_z-xR_EZIjAVf7aZfKO5ZwnffraO&index=2)
+
+<!-- Link -->
+[github]: https://github.com/qvil/react-router-v4
