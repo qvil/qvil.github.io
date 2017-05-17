@@ -72,9 +72,11 @@ jpg를 바이너리형태로 관리하는 것도 가능하다.
 
 ## 참고
 
+- [Dealing with line endings][github]
 - [How to change line-ending settings][stackoverflow]
 - [git 에서 CRLF 개행 문자 차이로 인한 문제 해결하기][lesstif]
 
 <!-- 링크 -->
+[github]: https://help.github.com/articles/dealing-with-line-endings/
 [stackoverflow]: http://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings
 [lesstif]: https://www.lesstif.com/pages/viewpage.action?pageId=20776404
