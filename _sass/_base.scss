@@ -102,12 +102,12 @@ a {
 	// }
 
 	&:hover {
-		color: darken($link-color, 20);
+		color: lighten($link-color, 20);
 	}
 
 	&:focus {
 		outline: thin dotted;
-		color: darken($link-color, 20);
+		color: lighten($link-color, 20);
 	}
 
 	&:hover,
