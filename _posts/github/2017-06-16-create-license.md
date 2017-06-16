@@ -32,4 +32,5 @@ share: true
 
 ## 참고
 
-[Github - Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)참고
+- [Github - Licensing a repository](https://help.github.com/articles/licensing-a-repository/)
+- [Github - Adding a license to a repository](https://help.github.com/articles/adding-a-license-to-a-repository/)
