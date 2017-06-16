@@ -46,10 +46,14 @@ git Built-in Convention을 따른다.
 ### 예문
 
 Good
-* (If applied, this commit will) Refactor subsystem X for readability
+```
+(If applied, this commit will) Refactor subsystem X for readability
+```
 
 Bad
-* (If applied, this commit will) Fixed bug with Y
+```
+(If applied, this commit will) Fixed bug with Y
+```
 
 ## 6. 본문은 영문 기준 72자마다 줄 바꿈
 
