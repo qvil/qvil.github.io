@@ -1,32 +1,70 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: #abstract-5.jpg
+  credit: #dargadgetz
+  creditlink: #http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2016-02-01
+modified: 2017-06-20
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+# 현 태수(qvil)
+자바스크립트를 주로 사용하며 다양한 분야에 관심이 많은 개발자 입니다.
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+새로운 기술에 관심이 많고 항상 배우려고 노력하며 아이디어를 제시하고 토론하고 만드는 것을 좋아하는 개발자입니다.
 
-## HPSTR Features:
+##### 롤을 좋아하여 롤에 대해서 분석하고 논문을 쓰고싶은 목표를 가지고 있습니다.
 
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu.
-* Background image support.
-* Support for large images to call out your favorite posts.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Syntax highlighting]({{ site.url }}/code-highlighting-post/) stylesheets to make your code examples look snazzy.
+<div markdown="0">
+  <a href="https://github.com/{{ site.owner.github }}" class="btn">
+    <i class="fa fa-fw fa-github"></i> GitHub
+  </a>
+  <a href="mailto:{{ site.owner.email }}" class="btn btn-info">
+    <i class="fa fa-fw fa-envelope"></i> Email
+  </a>
+</div>
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+## 기술
 
-[^1]: Example: *domain.com/category-name/post-title*
+### Frontend
+- HTML
+- CSS
+- **Javascript**
+  - React.js
+  - Redux
+  - jQuery
+
+### Backend
+- Javascript
+  - GraphQL
+  - Express
+
+### Database
+- MongoDB
+- MySQL
+- MariaDB
+
+### Mobile
+- React Native
+- Android
+
+### 기타
+- C
+- Java
+- Python
+
+
+## 경력
+- [Seowon Intech](http://www.seowonintech.co.kr) (2015.2 ~)
+>임베디드 통신장비 개발 SW팀 Web UI 담당. (HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, Git, SVN)
+
+## 포트폴리오
+
+### 프로젝트
+- [react-native-chat](https://github.com/seowonintech/react-native-chat)
+
+### 교육(재능기부)
+  - [C](https://github.com/qvil/c)
+  - [Python](https://github.com/qvil/Python)
+  - [Android](https://github.com/qvil/android-1)

@@ -56,6 +56,8 @@ end #JB
 
 # Simple Usage: rake post
 # Advanced Usage: rake post dir="blog" name="file-name" title="title" excerpt="explain" tags=[redux,firebase]
+# Usage 170620 For HPSTR Theme.
+# rake post dir="folder" name="file-name" 
 ##############################################
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
@@ -89,9 +91,10 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts "excerpt: \"#{excerpt}\""
-    post.puts "created: #{currentTime}"
-    post.puts "date: #{currentTime}"
+    # post.puts "excerpt: \"#{excerpt}\"" # 170620 For HPSTR Theme.
+    # post.puts "created: #{currentTime}"
+    # post.puts "date: #{currentTime}"
+    post.puts "modified: #{date}" # 170620 For HPSTR Theme.
     post.puts "categories: #{category}"
     post.puts "tags: #{tags}"
     post.puts "image:"
