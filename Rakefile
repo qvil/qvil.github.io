@@ -104,8 +104,8 @@ task :post do
     post.puts "comments: #{comments}"
     post.puts "share: #{share}"
     post.puts "---"
-    post.puts "* Table of Contents"
-    post.puts "{:toc}"
+    # post.puts "* Table of Contents" # 170620 For HPSTR Theme.
+    # post.puts "{:toc}" # 170620 For HPSTR Theme.
   end
 end # task :post
 
