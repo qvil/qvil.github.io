@@ -24,9 +24,6 @@ Facebook이 만든 React.js가 무엇인지 예제를 통해서 알아보겠습�
 
 Facebook이 만든 View에 집중한 프레임워크입니다. View를 Component화 시켜서 재사용가능하도록 만든 프레임워크입니다.
 
-### 3가지 특징
-
-
 ## [create-react-app][create-react-app-github]으로 만드는 React.js 예제
 
 >create-react-app은 Facebook에서 공식으로 권장하고, Redux를 만든 Facebook의 [Dan abramov][gaearon-github]가 만든 보일러플레이트 입니다.
