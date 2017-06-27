@@ -25,7 +25,7 @@ share: true
 <script src="https://gist.github.com/qvil/d8d4efca409f0f4f1e825f9535ca7476.js"></script>
 
 ## Windows에서 `.gitconfig`파일이 없을 때
-아래 커맨드를 사용하면 `.gitconfig`파일이 생성된다 메모장으로 수정해도된다.
+아래 커맨드를 사용하면 `C:\Users\username` `.gitconfig`파일이 생성된다 메모장으로 수정해도된다.
 
 ```sh
 git config --global user.name tshyeon
