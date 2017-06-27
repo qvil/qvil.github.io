@@ -24,6 +24,13 @@ share: true
 
 <script src="https://gist.github.com/qvil/d8d4efca409f0f4f1e825f9535ca7476.js"></script>
 
+## Windows에서 `.gitconfig`파일이 없을 때
+아래 커맨드를 사용하면 `.gitconfig`파일이 생성된다 메모장으로 수정해도된다.
+
+```sh
+git config --global user.name tshyeon
+```
+
 커맨드 라인에 입력
 ```
 $ git config --global alias.tlg "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold red)%h%C(reset) : %C(bold green)(%ar)%C(reset) - %C(cyan)\<%an\>%C(reset)%C(bold yellow)%d%C(reset)%n%n%w(90,1,2)%C(white)%B%C(reset)%n'"
