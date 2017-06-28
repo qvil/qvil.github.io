@@ -14,33 +14,7 @@ share: true
 
 ## 문제
 
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    int score[10] = {1, 2, 3, 4, 5};
-    int i, op = 2, sum = 0;
-    switch (op)
-    {
-    case 1:
-        for (i = 0; i < 10; i++)
-            sum += score[i];
-        printf("%d \n", sum);
-        break;
-    case 2:
-        for (i = 3; i < 10; i++)
-            sum += score[i];
-        printf("%d \n", sum);
-    default:
-        for (i = 5; i < 10; i++)
-            sum += score[i];
-        printf("%d \n", sum);
-        break;
-    }
-    return 0;
-}
-```
+<script src="https://gist.github.com/qvil/d77d80925b482411cf8c3b88f1de6431.js"></script>
 
 ## 해설
 1. op = 2이므로 case 2: 부분만 보면 된다.
@@ -52,7 +26,7 @@ int main(void)
     1. default에서 score[5]에는 값이 들어있지 않다.(쓰레기값) 값이 없으므로 `sum += score[i];`연산은 이뤄지지 않고 `printf`한다. `sum`의 값이 변하지 않았으므로 `9` 출력.
         - `9` 출력
 
-## 결과
+## 결과([온라인 실행](https://www.tutorialspoint.com/compile_c_online.php))
 ```
 9
 9
