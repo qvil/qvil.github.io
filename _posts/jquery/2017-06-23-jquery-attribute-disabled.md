@@ -24,7 +24,7 @@ $( elem ).attr( 'disabled', false );
 
 아래와 같이 삼항연산자를 이용해서 `true`, `false`를 제어하면 보기도 좋고 코드도 줄어들고 편리하다.
 ```js
-$( elem ).attr( 'disabled', ? true : false );
+$( elem ).attr( 'disabled', condition ? true : false );
 ```
 
 ## attr(), prop()의 차이
