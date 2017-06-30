@@ -72,7 +72,7 @@ modified: 2017-06-20
 ## 경력
 - [Seowonintech Homepage](http://www.seowonintech.co.kr) (2015.2 ~)
 - <a href="https://github.com/seowonintech" class="">
-    <i class="fa fa-fw fa-github"></i>Seowonintech GitHub
+    <i class="fa fa-fw fa-github"></i> Seowonintech
   </a>
 >임베디드 통신장비 개발 SW팀 Web UI 담당. (HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, Git, SVN)
 
@@ -81,10 +81,16 @@ modified: 2017-06-20
 ### 프로젝트
 - [react-native-chat](https://github.com/seowonintech/react-native-chat)
 
-### 교육(재능기부)
-  - [C](https://github.com/qvil/c)
-  - [Python](https://github.com/qvil/Python)
-  - [Android](https://github.com/qvil/android-1)
+### 강의(재능기부)
+  - <a href="https://github.com/qvil/c" class="">
+      <i class="fa fa-fw fa-github"></i> C
+    </a>
+  - <a href="https://github.com/qvil/Python" class="">
+      <i class="fa fa-fw fa-github"></i> Python
+    </a>
+  - <a href="https://github.com/GeunYoungg/android/wiki" class="">
+      <i class="fa fa-fw fa-github"></i> Android, Java Wiki
+    </a>
 
 ---
 
