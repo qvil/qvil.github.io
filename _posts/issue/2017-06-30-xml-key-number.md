@@ -42,5 +42,5 @@ XML의 Key는 숫자로 시작하면 안된다.
 
 ### 예제
 ```
-http://localhost/cgi/getValue
+http://localhost/cgi/backend.cgi?command=getValue
 ```
