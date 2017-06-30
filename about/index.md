@@ -33,8 +33,7 @@ modified: 2017-06-20
 >- Backend : REST API의 한계를 느껴서 [GraphQL](http://graphql.org/)에 관심이 많습니다.
 >- Database : NoSQL에 관심이 생겨서 [MongoDB](https://www.mongodb.com/)와 대용량 처리를 위한 [Cassandra](http://cassandra.apache.org/)에 관심이 많습니다.
 >- ETC : 애자일 개발[^1]에 관심이 많습니다. 코드리뷰[^2]용 프로젝트 도구로 오픈프로젝트는 [Github](https://github.com/), 비공개는프로젝트는 [Gitlab](https://about.gitlab.com/)을 사용하고 있습니다.
-
-##### 롤을 좋아하여 롤에 대해서 분석하고 논문을 쓰고싶은 목표를 가지고 있습니다.
+>##### 롤을 좋아하여 롤에 대해서 분석하고 치트시트를 쓰고 나아가 데이터 기반으로 승률에 대한 연구논문을 쓰고 싶은 목표를 가지고 있습니다. [롤 정글 치트시트](https://gist.github.com/qvil/83d2d3e737a787ff8b6d4a35a5f48eb6), [롤 서포터 치트시트](https://gist.github.com/qvil/0554ffd54f7a1b39bc58ffedb7796293)
 
 ## 기술
 
@@ -71,7 +70,10 @@ modified: 2017-06-20
 
 
 ## 경력
-- [Seowon Intech](http://www.seowonintech.co.kr) (2015.2 ~)
+- [Seowonintech Homepage](http://www.seowonintech.co.kr) (2015.2 ~)
+- <a href="https://github.com/seowonintech" class="">
+    <i class="fa fa-fw fa-github"></i>Seowonintech GitHub
+  </a>
 >임베디드 통신장비 개발 SW팀 Web UI 담당. (HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, Git, SVN)
 
 ## 포트폴리오
