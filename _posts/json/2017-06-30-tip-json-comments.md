@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JSON] 팁 - 주석"
+title: "[JSON] Tip - 주석"
 modified: 2017-06-30
 categories: "json"
 tags: [json, tip, comments, json5]

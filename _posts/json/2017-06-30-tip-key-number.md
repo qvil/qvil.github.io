@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JSON] 팁 - Json Key가 숫자라면?"
+title: "[JSON] Tip - Json Key가 숫자라면?"
 modified: 2017-06-30
 categories: "json"
 tags: [json, tip, key-number]
