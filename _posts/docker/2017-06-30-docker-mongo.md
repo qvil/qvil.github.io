@@ -64,6 +64,12 @@ docker ps
 docker exec -it mongo /bin/bash
 ```
 
+- `docker exec`명령어는 Docker Conatiner안에 들어가서 명령어를 실행하겠다는 뜻입니다.
+- `-i` 옵션은 interactive (상호작용)
+- `-t` 옵션은 tty (로그)
+    - [옵션](#옵션) 참고
+- 맨 뒤에 `/bin/bash`는 `/bin/bash`를 사용하겠다는 뜻입니다.
+
 ### 결과
 ![docker-mongo-shell](/images/docker-mongo-shell.png)
 
@@ -72,7 +78,7 @@ docker exec -it mongo /bin/bash
 
 
 ## 참고
-**옵션**
+### 옵션
 - `--name` : image 이름
 - `-p`, `--publish` : port {내부포트}:{외부포트} (tcp/udp 적지 않으면 기본은 tcp)
 - `-d`, `--detach` : `detach`의 약자로 백그라운드로 컨테이너를 실행
