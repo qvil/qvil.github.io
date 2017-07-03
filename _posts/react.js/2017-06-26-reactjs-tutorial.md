@@ -12,7 +12,8 @@ comments: true
 share: true
 ---
 
-<a href="https://github.com/qvil/react-tutorial" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github: <https://github.com/qvil/react-tutorial>
+>## <a href="https://github.com/qvil/react-tutorial" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github : <https://github.com/qvil/react-tutorial>
+>## Demo : [sandbox](https://codesandbox.io/s/github/qvil/react-tutorial)
 
 Facebook이 만든 React.js가 무엇인지 예제를 통해서 알아보겠습니다.
 
