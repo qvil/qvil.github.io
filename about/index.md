@@ -79,7 +79,15 @@ modified: 2017-06-20
 ## 포트폴리오
 
 ### 프로젝트
-- [react-native-chat](https://github.com/seowonintech/react-native-chat)
+- <a href="https://github.com/seowonintech/react-native-chat" class="">
+    <i class="fa fa-fw fa-github"></i> react-native-chat
+  </a>
+- <a href="https://github.com/qvil/react-tutorial" class="">
+    <i class="fa fa-fw fa-github"></i> react-tutorial
+  </a>
+- <a href="https://github.com/qvil/redux-tutorial" class="">
+    <i class="fa fa-fw fa-github"></i> redux-tutorial
+  </a>
 
 ### 강의(재능기부)
   - <a href="https://github.com/qvil/c" class="">
