@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "react router v4 사용법"
-excerpt: "react-router를 이용해서 페이지 화면전환을 해보자"
+title: "[React Router v4]SPA에서 다중페이지 구현(Feat. 성능최적화)"
 created: 2017-05-09 15:55:05 +0900
-date: 2017-05-10 22:28:05 +0900
+date: 2017-07-20 15:28:05 +0900
 categories: "react"
 tags: [react,react-router]
 image:
@@ -16,17 +15,33 @@ share: true
 * Table of Contents
 {:toc}
 
-
-
 ><a href="https://github.com/qvil/react-router-v4" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github: <https://github.com/qvil/react-router-v4>
 
 >Example: <https://react-router-v4.now.sh/>
 
 # React Router란?
 
-React가 컴포넌트 기반의 SPA(Single Page Application)를 만드는데 최적화 되어있다. React로 여러 페이지를 구현하려면? -> react-router
+React는 컴포넌트 기반의 SPA(Single Page Application)를 만드는데 최적화 되어있다. `/signin`, `/signup` 등 React로 여러 페이지를 구현하기 위해서 **React Router**를 사용합니다.
+
+## Install
+
+```sh
+yarn add react-router-dom
+# or, if you're not using yarn
+npm install react-router-dom
+
+```
 
 # React Router Component
+**Import 예제**
+```js
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+```
 
 ## Link
 
@@ -58,6 +73,14 @@ React가 컴포넌트 기반의 SPA(Single Page Application)를 만드는데 최
     <h3>Render Test</h3>
 )} />
 ```
+
+### Route component={컴포넌트}에서 props를 사용하고 싶다면
+`render` 속성을 사용하면 된다.
+
+**예제**
+```js
+<Route render={ props => <MyComponent myProps="hello"/> }/>
+``` 
 
 ## Redirect
 
