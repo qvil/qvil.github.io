@@ -3,7 +3,7 @@ layout: post
 title: "[중등교사임용시험-전기전자통신] C언어 2011년도 문제 및 풀이(Feat. 배열과 memset()차이)"
 modified: 2017-06-28
 categories: "teacher appointment exam"
-tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C, 2011, array, memset]
+tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C, "2011", array, memset]
 image:
   feature: #/images/image.jpg
   credit: #WeGraphics

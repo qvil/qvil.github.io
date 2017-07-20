@@ -3,7 +3,7 @@ layout: post
 title: "[중등교사임용시험-전기전자통신] C언어 2010년도 문제 및 풀이"
 modified: 2017-06-28
 categories: "teacher appointment exam"
-tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C, 2010]
+tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C, "2010"]
 image:
   feature: #/images/image.jpg
   credit: #WeGraphics
