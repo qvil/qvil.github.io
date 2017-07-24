@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[React.js] Create react app을 이용한 React.js 튜토리얼(State, Props)"
-modified: 2017-06-26
+modified: 2017-07-24
 categories: "react.js"
 tags: [react.js, create-react-app, tutorial]
 image:
@@ -11,9 +11,13 @@ image:
 comments: true
 share: true
 ---
+* Table of Contents
+{:toc}
 
 >## <a href="https://github.com/qvil/react-tutorial" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github : <https://github.com/qvil/react-tutorial>
->## Demo : [sandbox](https://codesandbox.io/s/github/qvil/react-tutorial)
+
+[![Edit qvil/react-tutorial](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/react-tutorial/tree/master/)
+<iframe src="https://codesandbox.io/embed/github/qvil/react-tutorial/tree/master/" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 Facebook이 만든 React.js가 무엇인지 예제를 통해서 알아보겠습니다.
 

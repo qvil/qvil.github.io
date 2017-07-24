@@ -2,7 +2,7 @@
 layout: post
 title: "[React Router v4]SPA에서 다중페이지 구현(Feat. 성능최적화)"
 created: 2017-05-09 15:55:05 +0900
-date: 2017-07-20 15:28:05 +0900
+date: 2017-07-24 08:28:05 +0900
 categories: "react"
 tags: [react,react-router]
 image:
@@ -17,7 +17,9 @@ share: true
 
 ><a href="https://github.com/qvil/react-router-v4" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github: <https://github.com/qvil/react-router-v4>
 
->Example: <https://react-router-v4.now.sh/>
+[![Edit qvil/react-router-v4](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/Yj8NVEmW)
+
+<iframe src="https://codesandbox.io/embed/Yj8NVEmW" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 # React Router란?
 
