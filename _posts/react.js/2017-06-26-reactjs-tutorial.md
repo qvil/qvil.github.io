@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[React.js] Create react app을 이용한 React.js 튜토리얼(State, Props)"
-modified: 2017-07-24
+date: 2017-07-24
 categories: "react.js"
 tags: [react.js, create-react-app, tutorial]
 image:
