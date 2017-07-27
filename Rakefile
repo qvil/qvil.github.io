@@ -94,7 +94,7 @@ task :post do
     # post.puts "excerpt: \"#{excerpt}\"" # 170620 For HPSTR Theme.
     # post.puts "created: #{currentTime}"
     # post.puts "date: #{currentTime}"
-    post.puts "date: #{date}" # 170620 For HPSTR Theme.
+    post.puts "date: #{currentTime}" # 170620 For HPSTR Theme.
     post.puts "categories: #{category}"
     post.puts "tags: #{tags}"
     post.puts "image:"
