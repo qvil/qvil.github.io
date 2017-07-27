@@ -4,7 +4,7 @@ title: "[React Router v4]SPA에서 다중페이지 구현(Feat. 성능최적화)
 created: 2017-05-09 15:55:05 +0900
 date: 2017-07-24 08:28:05 +0900
 categories: "react"
-tags: [react,react-router]
+tags: [react.js, react-router]
 image:
   feature: #/images/image.jpg
   credit: #WeGraphics
