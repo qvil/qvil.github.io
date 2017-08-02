@@ -71,7 +71,7 @@ modified: 2017-06-20
 
 ## 경력
 - [Seowonintech Homepage](http://www.seowonintech.co.kr) (2015.2 ~)
-- <a href="https://github.com/seowonintech" class="">
+- <a href="https://github.com/seowonintech">
     <i class="fa fa-fw fa-github"></i> Seowonintech
   </a>
 >임베디드 통신장비 개발 SW팀 Web UI 담당. (HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, Git, SVN)
@@ -79,24 +79,28 @@ modified: 2017-06-20
 ## 포트폴리오
 
 ### 프로젝트
-- <a href="https://github.com/seowonintech/react-native-chat" class="">
+- <a href="https://github.com/qvil/lte-earfcn-calculator">
+    <i class="fa fa-fw fa-github"></i> LTE EARFCN Calculator
+  </a> / NPM : [lte-earfcn-calculator](https://www.npmjs.com/package/lte-earfcn-calculator) / [![Edit qvil/lte-earfcn-calculator: example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/example)
+<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/example" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+- <a href="https://github.com/seowonintech/react-native-chat">
     <i class="fa fa-fw fa-github"></i> react-native-chat
   </a>
-- <a href="https://github.com/qvil/react-tutorial" class="">
+- <a href="https://github.com/qvil/react-tutorial">
     <i class="fa fa-fw fa-github"></i> react-tutorial
   </a>
-- <a href="https://github.com/qvil/redux-tutorial" class="">
+- <a href="https://github.com/qvil/redux-tutorial">
     <i class="fa fa-fw fa-github"></i> redux-tutorial
   </a>
 
 ### 강의(재능기부)
-  - <a href="https://github.com/qvil/c" class="">
+  - <a href="https://github.com/qvil/c">
       <i class="fa fa-fw fa-github"></i> C
     </a>
-  - <a href="https://github.com/qvil/Python" class="">
+  - <a href="https://github.com/qvil/Python">
       <i class="fa fa-fw fa-github"></i> Python
     </a>
-  - <a href="https://github.com/GeunYoungg/android/wiki" class="">
+  - <a href="https://github.com/GeunYoungg/android/wiki">
       <i class="fa fa-fw fa-github"></i> Android, Java Wiki
     </a>
 
