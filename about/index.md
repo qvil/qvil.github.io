@@ -81,8 +81,8 @@ modified: 2017-06-20
 ### 프로젝트
 - <a href="https://github.com/qvil/lte-earfcn-calculator">
     <i class="fa fa-fw fa-github"></i> LTE EARFCN Calculator
-  </a> / NPM : [lte-earfcn-calculator](https://www.npmjs.com/package/lte-earfcn-calculator) / [![Edit qvil/lte-earfcn-calculator: example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/example)
-<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/example" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+  </a> / NPM : [lte-earfcn-calculator](https://www.npmjs.com/package/lte-earfcn-calculator) / [![Edit qvil/lte-earfcn-calculator: web](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
+<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/demo/web" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 - <a href="https://github.com/seowonintech/react-native-chat">
     <i class="fa fa-fw fa-github"></i> react-native-chat
   </a>
