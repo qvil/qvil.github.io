@@ -9,7 +9,8 @@ comments: false
 modified: 2017-06-20
 ---
 
-# 현 태수(qvil)
+# 현 태수(Taesu Hyeon)
+
 <div markdown="0">
   <a href="https://github.com/{{ site.owner.github }}" class="btn">
     <i class="fa fa-fw fa-github"></i> GitHub
@@ -18,93 +19,59 @@ modified: 2017-06-20
     <i class="fa fa-fw fa-envelope"></i> Email
   </a>
 </div>
-임베디드 소프트웨어 개발자이면서, 자바스크립트 풀스택 개발을 지향하는 웹개발자 입니다.
 
-배운 것은 널리 알려야 한다는 생각과
+## Tech Stack
 
->무엇인가 철저하게 알고 싶거든 누군가에게 그것을 가르쳐라. 
+Mainly using Javascript(React.js, Node.js)
 
-라는 말에 영감을 받아서 지식 공유와 저장의 목적으로 블로그를 운영하고 있습니다.
+* Frontend : React.js, Redux, Javascript, HTML, CSS, Sass, jQuery
+* Backend : Node.js(Express.js)
+* Database: NoSQL(MongoDB), RDBMS(MySQL)
+* Mobile : React Native, Android
+* OS : macOS, Linux, Windows
+* Programming Languages : C, Java, Python
+* Language : Korean(Native), English(Readable stack over flow)
 
-새로운 기술과 트렌드에 관심이 많고 항상 배우려고 노력하며 아이디어를 제시하고 토론하고 만드는 것을 좋아합니다.
+## History
 
->### 요즘 관심사
->- Frontend : Redux의 `Rails-style` Folder structure에 불편함을 느껴 `Ducks` 구조와 [redux-actions](https://github.com/acdlite/redux-actions)에 관심이 많습니다.
->- Backend : REST API의 한계를 느껴서 [GraphQL](http://graphql.org/)에 관심이 많습니다.
->- Database : NoSQL에 관심이 생겨서 [MongoDB](https://www.mongodb.com/)와 대용량 처리를 위한 [Cassandra](http://cassandra.apache.org/)에 관심이 많습니다.
->- ETC : 애자일 개발[^1]에 관심이 많습니다. 코드리뷰[^2]용 프로젝트 도구로 오픈프로젝트는 [Github](https://github.com/), 비공개는프로젝트는 [Gitlab](https://about.gitlab.com/)을 사용하고 있습니다.
->##### 롤을 좋아하여 롤에 대해서 분석하고 치트시트를 쓰고 나아가 데이터 기반으로 승률에 대한 연구논문을 쓰고 싶은 목표를 가지고 있습니다. [롤 정글 치트시트](https://gist.github.com/qvil/83d2d3e737a787ff8b6d4a35a5f48eb6), [롤 서포터 치트시트](https://gist.github.com/qvil/0554ffd54f7a1b39bc58ffedb7796293)
+* [Assistant Researcher - Seowonintech (2015.2 ~)](http://www.seowonintech.co.kr) <a href="https://github.com/seowonintech"><i class="fa fa-fw fa-github"></i>Seowonintech</a>
+  * Project Web UI - HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, SVN
+  * Development MQTT Web Mabagement Tool - React.js, Node.js, MongoDB, Git
 
-## 기술
+## Portfolio
 
-### Frontend
-- HTML
-- CSS
-- **Javascript**
-  - React.js
-  - Redux
-  - jQuery
+### LTE EARFCN Calculator
 
-### Backend
-- Javascript
-  - GraphQL
-  - Express
+[![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
+[![Build Status](https://travis-ci.org/qvil/lte-earfcn-calculator.svg?branch=master)](https://travis-ci.org/qvil/lte-earfcn-calculator)
+[![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Edit qvil/lte-earfcn-calculator: web](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
 
-### Database
-- MongoDB
-- MySQL
-
-### Mobile
-- React Native
-- Android
-
-### 기타
-- C
-- Java
-- Python
-
-### OS
-- **Mac**
-- Linux
-- Windows
-
-
-## 경력
-- [Seowonintech Homepage](http://www.seowonintech.co.kr) (2015.2 ~)
-- <a href="https://github.com/seowonintech">
-    <i class="fa fa-fw fa-github"></i> Seowonintech
-  </a>
->임베디드 통신장비 개발 SW팀 Web UI 담당. (HTML, CSS, Javascript, jQuery, C, CGI, Linux Script, Git, SVN)
-
-## 포트폴리오
-
-### 프로젝트
-- <a href="https://github.com/qvil/lte-earfcn-calculator">
-    <i class="fa fa-fw fa-github"></i> LTE EARFCN Calculator
-  </a> / NPM : [lte-earfcn-calculator](https://www.npmjs.com/package/lte-earfcn-calculator) / [![Edit qvil/lte-earfcn-calculator: web](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
-<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/demo/web" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-- <a href="https://github.com/seowonintech/react-native-chat">
+* <a href="https://github.com/seowonintech/react-native-chat">
     <i class="fa fa-fw fa-github"></i> react-native-chat
   </a>
-- <a href="https://github.com/qvil/react-tutorial">
+* <a href="https://github.com/qvil/react-tutorial">
     <i class="fa fa-fw fa-github"></i> react-tutorial
   </a>
-- <a href="https://github.com/qvil/redux-tutorial">
+* <a href="https://github.com/qvil/redux-tutorial">
     <i class="fa fa-fw fa-github"></i> redux-tutorial
   </a>
 
-### 강의(재능기부)
-  - <a href="https://github.com/qvil/c">
-      <i class="fa fa-fw fa-github"></i> C
-    </a>
-  - <a href="https://github.com/qvil/Python">
-      <i class="fa fa-fw fa-github"></i> Python
-    </a>
-  - <a href="https://github.com/GeunYoungg/android/wiki">
-      <i class="fa fa-fw fa-github"></i> Android, Java Wiki
-    </a>
+## Lecture
 
----
+* <a href="https://github.com/qvil/c">
+    <i class="fa fa-fw fa-github"></i> C
+  </a>
+* <a href="https://github.com/qvil/Python">
+    <i class="fa fa-fw fa-github"></i> Python
+  </a>
+* <a href="https://github.com/GeunYoungg/android/wiki">
+    <i class="fa fa-fw fa-github"></i> Android, Java Wiki
+  </a>
 
-[^1]: 애자일 소프트웨어 개발(Agile software development) 혹은 애자일 개발 프로세스는 소프트웨어 엔지니어링에 대한 개념적인 얼개로, 프로젝트의 생명주기동안 반복적인 개발을 촉진한다. 최근에는 애자일 게임 보급 등의 여파로 소프트웨어 엔지니어링 뿐 아니라 다양한 전문 분야에서 실용주의적 사고를 가진 사람들이 애자일 방법론을 적용하려는 시도를 하고 있다. [위키백과](https://ko.wikipedia.org/wiki/%EC%95%A0%EC%9E%90%EC%9D%BC_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B0%9C%EB%B0%9C)
-[^2]: Code review is systematic examination (sometimes referred to as peer review) of computer source code. It is intended to find mistakes overlooked in the initial development phase, improving the overall quality of software. Reviews are done in various forms such as pair programming, informal walkthroughs, and formal inspections.[Wikipedia](https://en.wikipedia.org/wiki/Code_review)
+## Community
+
+* <a href="https://github.com/play-js">
+    <i class="fa fa-fw fa-github"></i> Play JS (Owner)
+  </a>
