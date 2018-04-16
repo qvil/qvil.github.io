@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Dcoker] Error response from daemon:"
+title: "[Docker] Error response from daemon:"
 date: 2018-04-16 23:24:00 +0900
-categories: "git"
+categories: "docker"
 tags: [docker]
 image:
   feature: #/images/image.jpg

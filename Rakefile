@@ -1,4 +1,4 @@
-# Advanced Usage: rake post dir="blog" name="file-name" title="title" excerpt="explain" tags=[redux,firebase]
+# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"] [excerpt="description"] [comment=false] [share=false]# Advanced Usage: rake post dir="blog" category="category" name="file-name" title="title" excerpt="explain" tags=[redux,firebase]
 require "rubygems"
 require 'rake'
 require 'yaml'
