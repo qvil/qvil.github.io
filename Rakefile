@@ -1,3 +1,4 @@
+# Advanced Usage: rake post dir="blog" name="file-name" title="title" excerpt="explain" tags=[redux,firebase]
 require "rubygems"
 require 'rake'
 require 'yaml'
