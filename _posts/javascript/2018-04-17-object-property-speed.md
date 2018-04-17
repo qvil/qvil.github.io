@@ -12,11 +12,20 @@ comments: true
 share: true
 ---
 
-# Summary
+<!-- TOC -->
+
+* [1. Summary](#1-summary)
+* [2. Why](#2-why)
+* [3. Test Code](#3-test-code)
+* [4. Result](#4-result)
+
+<!-- /TOC -->
+
+# 1. Summary
 
 <span style="color: red">No</span>
 
-# Why
+# 2. Why
 
 왜 Object 속성 갯수 참조 속도가 궁금했을까?
 
@@ -44,7 +53,7 @@ export default MyComponentContainer;
 
 위 코드는 개발자가 사용하기에는 편리하지만 쓸데없는 Action 까지 모두 Injection 된다는 단점이 있다. (FirstAction.a 만 필요해도 FirstAction.b, c... 모두 props 로 접근 가능해진다.)그렇다면 쓸데없는 Action 이 Object 의 Property 로 Injection 되면 성능에 영향을 미칠까?
 
-# Code
+# 3. Test Code
 
 ```js
 const miniObj = {
@@ -69,7 +78,7 @@ let elapsedMin = endMin - startMin;
 console.log(`elapsedMin : ${elapsedMin}`); // 경과 시간
 ```
 
-# Result
+# 4. Result
 
 ![object_property_speed.png](/images/object_property_speed.png)
 
