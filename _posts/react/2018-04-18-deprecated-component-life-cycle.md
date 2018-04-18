@@ -12,7 +12,19 @@ comments: true
 share: true
 ---
 
-# Summary
+<!-- TOC -->
+
+* [1. Summary](#1-summary)
+* [2. Content](#2-content)
+  * [2.1. Why Deprecated?](#21-why-deprecated)
+* [3. Example](#3-example)
+  * [3.1. Previous Code](#31-previous-code)
+  * [3.2. Improved Code](#32-improved-code)
+* [4. Reference](#4-reference)
+
+<!-- /TOC -->
+
+# 1. Summary
 
 React v16.3 에서 발표한 [Component Lifecycle Changes](https://reactjs.org/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes)를 참고하면
 Unsafe 한 Lifecycle 메서드(componentWillMount(), componentWillReceiveProps(), componentWillUpdate())를 React v17 이후부터는 사용 할 수 없습니다.
@@ -24,7 +36,7 @@ Unsafe 한 Lifecycle 메서드(componentWillMount(), componentWillReceiveProps()
 * [getDerivedStateFromProps](https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
 * [getSnapshotBeforeUpdate](https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)
 
-# Content
+# 2. Content
 
 React v16.3 에서 [Component Lifecycle Changes](https://reactjs.org/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes)에 대해서 발표했습니다. [The Component Lifecycle](https://reactjs.org/docs/react-component.html#the-component-lifecycle)을 보면 몇가지 변경된 점이 보입니다. 예를 들어 `static getDerivedStateFromProps()`처럼 새로 생긴 메서드도 있고 `UNSAFE_componentWillMount()`처럼 기존의 메서드에 `UNSAFE_`가 prefix 로 붙은 메서드를 볼 수 있습니다.
 
@@ -33,18 +45,18 @@ React v16.3 에서 [Component Lifecycle Changes](https://reactjs.org/blog/2018/0
 > **Note**  
 > This lifecycle was previously named componentWillMount. That name will continue to work until version 17. Use the rename-unsafe-lifecycles codemod to automatically update your components.
 
-## Why Deprecated?
+## 2.1. Why Deprecated?
 
 [Learn more about this recommendation here.](https://reactjs.org/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes)
 
 1.  Many of these issues are exacerbated by a subset of the component lifecycles
 1.  These also happen to be the lifecycles that cause the most confusion within the React community(React 커뮤니티에서 가장 혼란을 가져오는 LifeCycle)
 
-# Example
+# 3. Example
 
 이 예제에서는 `componentWillReceiveProps`를 `static getDerivedStateFromProps`로 바꿔보겠습니다.
 
-## Previous Code
+## 3.1. Previous Code
 
 ```js
 componentWillReceiveProps(nextProps) {
@@ -56,7 +68,7 @@ componentWillReceiveProps(nextProps) {
 
 `componentWillReceiveProps`를 사용하면 `this.props`와 `nextProps`를 비교해서 `setState`해주는 방식으로 구현했습니다.
 
-## Improved Code
+## 3.2. Improved Code
 
 ```js
 static getDerivedStateFromProps(nextProps, prevState) {
@@ -82,7 +94,7 @@ static getDerivedStateFromProps(nextProps, prevState) {
 
 부모 컴포넌트에 의해서 컴포넌트가 re-rendering 되면 prop 이 변경되지 않아도 이 메서드가 호출되므로 주의하라고 합니다. 변경 사항만 처리하려면 새로운 값과 이전의 값을 비교하면 된다고 합니다.
 
-# Reference
+# 4. Reference
 
 * https://reactjs.org/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes
 * https://reactjs.org/docs/react-component.html#the-component-lifecycle
