@@ -39,7 +39,9 @@ React Component 를 만들다가 type 을 체크해야 할 필요성을 느꼈�
 # 3. 코드(Code)
 
 ```js
-CollapseCard.propTypes = {
+import PropTypes from "prop-types";
+
+WrappedComponent.propTypes = {
   children: PropTypes.node,
   avatar: PropTypes.element,
   title: PropTypes.string,
