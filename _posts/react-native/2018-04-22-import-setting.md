@@ -24,7 +24,8 @@ App.js
 import { Signin } from "views";
 ```
 
-위 코드는 안되는데
+위 코드는 안되는데  
+(The above code does not work)
 
 components/index.js
 
@@ -38,8 +39,9 @@ Signin.js
 import MyComponent from "components/MyComponent";
 ```
 
-아래 코드는 된다.
+아래 코드는 된다.  
+(But this code is work)
 
-!?!?!? 왜?
+!?!?!? 왜?(Why?)
 
 > To be continue...
