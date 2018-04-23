@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-view/index.js
+views/index.js
 
 ```js
 export { default as Singin } from "./Singin";
