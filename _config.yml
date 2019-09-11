@@ -1,7 +1,7 @@
-title:            Taesu Hyeon Blog
-description:      
+title: Taesu Hyeon Blog
+description:
 disqus_shortname: https-qvil-github-io
-reading_time:     true
+reading_time: true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -9,36 +9,36 @@ url: #https://qvil.github.io
 
 # Owner/author information
 owner:
-  name:           Taesu Hyeon
-  avatar:         avatar.jpg
-  bio:            "Software Engineer, Suwon, Korea"
-  email:          qvil1127@gmail.com
+  name: Taesu Hyeon
+  avatar: avatar.jpg
+  bio: "Developer"
+  email: email@qvil.dev
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         qvil
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter:
+  facebook:
+  github: qvil
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-85426265-2
-google_verify:      
+google_analytics: UA-85426265-2
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Seoul
-future:      false  # publish future dated posts --  true, false (default) 
+timezone: Asia/Seoul
+future: false # publish future dated posts --  true, false (default)
 highlighter: rouge
-markdown:    kramdown
+markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-paginate
@@ -49,7 +49,7 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink: /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 10
@@ -62,9 +62,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-include: 
+include:
   - .htaccess
-exclude: 
+exclude:
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"
