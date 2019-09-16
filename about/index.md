@@ -11,7 +11,7 @@ modified: 2019-09-14
 
 # <img src="/images/ts-logo.png" alt="logo" width="40" height="30" /> 현태수 [Github](https://github.com/qvil), email@qvil.dev
 
-# OPGG, LOL Team, Frontend Developer (2018.08 ~ ) 11개월
+# OPGG, LOL Team, Frontend Developer (2018.08 ~ )
 
 | Project                                                  | Position | Description                                                                   |
 | -------------------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ modified: 2019-09-14
 | 2018 Asian game 이벤트(사이트 폐쇄)                      | Frontend | React, Redux, Styled Components 반응형 웹(우승팀 토너먼트 예측 서비스)        |
 | [Overwolf OP.GG PC App](https://play.overwolf.com/opgg/) | Frontend | Vue.js 기반 SPA 유지보수                                                      |
 
-# 서원인텍, SW 팀(Web UI 담당), 주임연구원 (2015.02 ~ 2018.07) 3년 6개월
+# 서원인텍, SW 팀(Web UI 담당), 주임연구원 (2015.02 ~ 2018.07)
 
 | Project                                | Position  | Description                                                       |
 | -------------------------------------- | --------- | ----------------------------------------------------------------- |

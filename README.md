@@ -7,7 +7,7 @@ http://localhost:4000/
 ### Docker
 
 ```
-docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build --watch
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve
 ```
 
 ### Docker compose
