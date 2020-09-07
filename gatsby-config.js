@@ -1,12 +1,41 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Qvil Blog`,
+    // Default title of the page
+    siteTitleAlt: `Qvil Blog`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Qvil Blog`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://blog.qvil.dev`,
+    // Used for SEO
+    siteDescription: `Qvil Blog`,
+    // Will be set on the <html /> tag
+    siteLanguage: `ko`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@qvil`,
+    // Links displayed in the header on the right side
+    externalLinks: [
+      {
+        name: `Github`,
+        url: `https://github.com/qvil`,
+      },
+    ],
+    // Navigation links
+    navigation: [
+      {
+        title: `Blog`,
+        slug: `/blog`,
+      },
+    ],
   },
   plugins: [
     {
@@ -25,14 +54,15 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/qvil`,
           },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-          },
+          // {
+          //   name: `Instagram`,
+          //   url: `https://www.instagram.com/lekoarts.de/`,
+          // },
         ],
+        formatString: "YYYY.MM.DD",
       },
     },
     {
@@ -45,9 +75,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `qvil-blog`,
+        short_name: `qvil-blog`,
+        description: `Qvil Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
@@ -76,5 +106,11 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: process.env.GOOGLE_ADSENSE_ID,
+      },
+    },
   ].filter(Boolean),
-}
+};
