@@ -2,7 +2,7 @@
 
 ## To Do
 
-- [ ] AdSense
+- [x] AdSense
 
 ## Prerequisites
 
