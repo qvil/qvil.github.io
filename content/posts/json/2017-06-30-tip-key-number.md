@@ -3,10 +3,7 @@ title: "[JSON] Tip - Json Key가 숫자라면?"
 date: 2017-06-30
 categories: "json"
 tags: [json, tip, key-number]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

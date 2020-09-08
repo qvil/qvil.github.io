@@ -3,10 +3,7 @@ title: "[Linux] 포트 사용하는 프로세스 찾기"
 date: 2019-11-11 16:13:25 +0900
 categories: "linux"
 tags: [linux, lsof, port, process]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

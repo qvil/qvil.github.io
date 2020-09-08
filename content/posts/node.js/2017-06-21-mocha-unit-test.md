@@ -3,10 +3,7 @@ title: "[Node.js] Javascript Unit Test 프레임워크 Mocha"
 date: 2017-06-21
 categories: "javascript"
 tags: [javascript, node.js, mocha, unit-test]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

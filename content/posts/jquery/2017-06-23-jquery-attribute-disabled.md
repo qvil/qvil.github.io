@@ -3,10 +3,7 @@ title: "[jQuery] attr(), prop()의 차이와 disabled 속성 제어"
 date: 2017-06-23
 categories: "jquery"
 tags: [jquery, disabled, attr, prop]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

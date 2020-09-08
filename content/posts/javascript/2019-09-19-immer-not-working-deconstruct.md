@@ -3,10 +3,7 @@ title: "immer는 객체 비구조화 문법(Object Destructuring)을 사용하�
 date: 2019-09-19 19:32:42 +0900
 categories: "javascript"
 tags: [javascript, immer]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

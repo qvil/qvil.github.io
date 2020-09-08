@@ -3,10 +3,7 @@ title: "[2019 카카오 If] FE(Front-end) Meetup"
 date: 2019-09-16 12:54:11 +0900
 categories: "conference"
 tags: [conference, kakao]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

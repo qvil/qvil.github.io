@@ -3,10 +3,7 @@ title: "[JSON] Tip - 주석"
 date: 2017-06-30
 categories: "json"
 tags: [json, tip, comments, json5]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---

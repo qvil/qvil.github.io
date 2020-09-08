@@ -3,10 +3,7 @@ title: "[NPM] NPM 모듈 만들고 배포하기"
 date: 2017-06-20
 categories: "node.js"
 tags: [node.js, npm, publish]
-image:
-  feature: #/images/image.jpg
-  credit: #WeGraphics
-  creditlink:
+
 comments: true
 share: true
 ---
