@@ -1,0 +1,26 @@
+---
+title: 2020 Blog Update - Jekyll to Gatsby
+date: 2020-09-08
+tags:
+  - Blog
+---
+
+오늘 블로그를 업데이트했다. Jekyll에서 Gatsby로 넘어왔다.
+
+### 업데이트한 이유
+
+1. Github pages에 CNAME 추가했는데 블로그가 깨지는 현상 발생
+1. Jekyll bundler 버전 문제였음.
+1. 위 문제를 해결하기 위해서 오랜만에 블로그 환경을 올리는데 Docker기반에 compose file까지 만들어 놨지만 속도가 느리고 루비환경이 마음에 안듦.
+1. 예전에 Hexo 잠깐 봤던 기억으로 블로그에 대해서 다시 검색하다가 Gatsby에서 마음에 드는 테마 찾음.
+   > 예전에 Gatsby로 블로그 만들다가 블로그에 양질의 정보를 올리는 것도 시간이 드는데 블로그 만드는 시간이 너무 아까워서 그만 뒀었음.
+
+### 느낀점
+
+1. Jekyll 기반의 블로그 데이터를 마이그레이션 하는데 에러나는 부분 규칙을 찾아서 생각보다 금방 마이그레이션
+   - Markdown에서 date라든가 이 테마에서 지원하지 않는 option값이 있는 경우 에러가 났음.
+1. 빠르다. Jekyll은 루비 기반으로 테마가 좀 더 파워풀하고 무거웠던 이유도 있었지만 reload시간이 오래 걸렸음. 지금 사용하는 테마([@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/))는 말 그래도 Live reloading 수준 + 다크테마(나도 밤에 웹서핑 할 때 눈이 아파서 다크테마가 있는 블로그를 선호했는데 미니멀하고 다크테마 지원하길래 바로 선택)
+1. 설정이 쉽다. 구글 애널리틱스나 애드센스를 붙일 때 Jekyll에서는 직접 script태그를 넣었는데 Gatsby는 플러그인([gatsby-plugin-google-analytics
+   ](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-analytics/), [gatsby-plugin-google-adsense
+   ](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-adsense/))이 상당히 잘 되어있다. React, GraphQL 환경에 친숙하기 때문에 설정도 금방 건드릴 수 있다.
+1. 마이그레이션한지 얼마 안 돼서 여러 가지 문제가 있을 수 있지만, 더 쾌적한 블로그 환경(개인적으로 정말 중요하다고 생각)이 더 좋은 컨텐츠를 생산하는데 도움이 되길 바란다.
