@@ -9,15 +9,6 @@ comments: true
 share: true
 ---
 
-- Table of Contents
-  {:toc}
-
-> <a href="https://github.com/qvil/react-router-v4" title="{{ site.owner.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> Github: <https://github.com/qvil/react-router-v4>
-
-[![Edit qvil/react-router-v4](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/Yj8NVEmW)
-
-<iframe src="https://codesandbox.io/embed/Yj8NVEmW" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
 # React Router란?
 
 React는 컴포넌트 기반의 SPA(Single Page Application)를 만드는데 최적화 되어있다. `/signin`, `/signup` 등 React로 여러 페이지를 구현하기 위해서 **React Router**를 사용합니다.
