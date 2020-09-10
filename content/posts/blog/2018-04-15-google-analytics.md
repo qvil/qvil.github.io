@@ -20,7 +20,7 @@ share: true
 
 ## 1.1. 구글 애널리틱스
 
-<img src="/images/google-analytics-mail.png" alt="google-analytics-mail" style="width: 500px;"/>
+![/images/google-analytics-mail.png](/images/google-analytics-mail.png)
 
 유저가 한달에 1.6k??? 이전 달 대비 37.12% 상승???
 
