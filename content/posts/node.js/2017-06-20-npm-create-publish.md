@@ -6,6 +6,7 @@ tags: [node.js, npm, publish]
 
 comments: true
 share: true
+slug: npm-create-publish
 ---
 
 # NPM 모듈 만들고 배포하기

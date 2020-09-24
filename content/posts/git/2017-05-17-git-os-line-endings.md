@@ -4,6 +4,7 @@ date: 2017-05-17
 tags: [git, linux]
 comments: true
 share: true
+slug: git-os-line-endings
 ---
 
 - Table of Contents

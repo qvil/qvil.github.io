@@ -6,6 +6,7 @@ tags: [javascript, node.js, mocha, unit-test]
 
 comments: true
 share: true
+slug: mocha-unit-test
 ---
 
 ## 개요

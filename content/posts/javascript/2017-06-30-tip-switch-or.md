@@ -4,6 +4,7 @@ date: 2017-06-30
 tags: [javascript, tip, switch, or]
 comments: true
 share: true
+slug: tip-switch-or
 ---
 
 ## 예제

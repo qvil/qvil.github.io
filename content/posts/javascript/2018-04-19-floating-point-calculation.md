@@ -6,6 +6,7 @@ tags: [js, float, toFixed]
 
 comments: true
 share: true
+slug: floating-point-calculation
 ---
 
 <!-- TOC -->

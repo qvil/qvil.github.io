@@ -6,6 +6,7 @@ tags: [react, lifecycle, componentWillReceiveProps, getDerivedStateFromProps]
 
 comments: true
 share: true
+slug: deprecated-component-life-cycle
 ---
 
 <!-- TOC -->

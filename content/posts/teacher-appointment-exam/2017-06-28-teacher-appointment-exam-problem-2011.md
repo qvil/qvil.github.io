@@ -15,6 +15,7 @@ tags:
 
 comments: true
 share: true
+slug: teacher-appointment-exam-problem-2011
 ---
 
 ## 문제

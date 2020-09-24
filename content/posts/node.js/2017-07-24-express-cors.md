@@ -6,6 +6,7 @@ tags: [node.js, express, cors, ajax]
 
 comments: true
 share: true
+slug: express-cors
 ---
 
 ## CORS란?

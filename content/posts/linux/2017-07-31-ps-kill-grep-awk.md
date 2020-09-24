@@ -1,5 +1,4 @@
 ---
-
 title: "[Linux] 프로세스 이름으로 중지(Feat. ps, kill, grep, awk)"
 date: 2017-07-31 17:05:02 +0900
 categories: "linux"
@@ -7,6 +6,7 @@ tags: [linux, ps, kill, grep, awk]
 
 comments: true
 share: true
+slug: ps-kill-grep-awk
 ---
 
 ## 프로세스 이름을 찾아서(ps, grep) 프로세스 번호(awk)로 중지(kill)

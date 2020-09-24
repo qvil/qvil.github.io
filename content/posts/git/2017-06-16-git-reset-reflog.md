@@ -4,6 +4,7 @@ date: 2017-06-16
 tags: [git, github]
 comments: true
 share: true
+slug: git-reset-reflog
 ---
 
 - Table of Contents

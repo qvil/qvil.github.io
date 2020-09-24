@@ -6,6 +6,7 @@ tags: [javascript, decimal-point, floating-point]
 
 comments: true
 share: true
+slug: decimal-point
 ---
 
 [lte-earfcn-calculator](https://www.npmjs.com/package/lte-earfcn-calculator)를 만들다가 아래 이슈가 발생했다.

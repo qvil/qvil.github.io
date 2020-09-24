@@ -6,6 +6,7 @@ tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C
 
 comments: true
 share: true
+slug: teacher-appointment-exam-problem-2017
 ---
 
 # 문제

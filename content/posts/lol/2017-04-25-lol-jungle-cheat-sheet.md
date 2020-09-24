@@ -8,6 +8,7 @@ tags: [lol]
 
 comments: true
 share: true
+slug: lol-jungle-cheat-sheet
 ---
 
 - Table of Contents

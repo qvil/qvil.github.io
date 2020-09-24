@@ -6,16 +6,10 @@ tags: [javascript, object]
 
 comments: true
 share: true
+slug: object-property-speed
 ---
 
-<!-- TOC -->
-
-- [1. Summary](#1-summary)
-- [2. Why](#2-why)
-- [3. Test Code](#3-test-code)
-- [4. Result](#4-result)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [1. Summary](#1-summary)auto- [2. Why](#2-why)auto- [3. Test Code](#3-test-code)auto- [4. Result](#4-result)autoauto<!-- /TOC -->
 
 # 1. Summary
 

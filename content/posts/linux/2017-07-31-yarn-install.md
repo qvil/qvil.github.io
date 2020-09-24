@@ -6,6 +6,7 @@ tags: [linux, yarn, install]
 
 comments: true
 share: true
+slug: yarn-install
 ---
 
 공식사이트 문서 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/)를 보고 따라하면 대부분의 경우 Install하는데 문제가 없지만

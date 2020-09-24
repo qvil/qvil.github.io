@@ -6,6 +6,7 @@ tags: [javascript, immer]
 
 comments: true
 share: true
+slug: immer-not-working-deconstruct
 ---
 
 ## [immer](https://github.com/immerjs/immer)는 객체 비구조화 문법(Object Destructuring)을 사용하면 동작하지 않는다.

@@ -6,17 +6,10 @@ tags: [react-native, create-react-native-app, absolute-path]
 
 comments: true
 share: true
+slug: create-react-native-app-absolute-path
 ---
 
-<!-- TOC -->
-
-- [1. 초기 설정(Initial Setting)](#1-초기-설정initial-setting)
-- [2. `babel-plugin-module-resolver` 설치(Install `babel-plugin-module-resolver`)](#2-babel-plugin-module-resolver-설치install-babel-plugin-module-resolver)
-- [3. `.babelrc` 수정(Edit `.babelrc`)](#3-babelrc-수정edit-babelrc)
-- [4. 예제 코드(Example Code)](#4-예제-코드example-code)
-- [5. 참고(Reference)](#5-참고reference)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [1. 초기 설정(Initial Setting)](#1-초기-설정initial-setting)auto- [2. `babel-plugin-module-resolver` 설치(Install `babel-plugin-module-resolver`)](#2-babel-plugin-module-resolver-설치install-babel-plugin-module-resolver)auto- [3. `.babelrc` 수정(Edit `.babelrc`)](#3-babelrc-수정edit-babelrc)auto- [4. 예제 코드(Example Code)](#4-예제-코드example-code)auto- [5. 참고(Reference)](#5-참고reference)autoauto<!-- /TOC -->
 
 # 1. 초기 설정(Initial Setting)
 

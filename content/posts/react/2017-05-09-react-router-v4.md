@@ -7,6 +7,7 @@ tags: [react.js, react-router]
 
 comments: true
 share: true
+slug: react-router-v4
 ---
 
 - Table of Contents

@@ -6,6 +6,7 @@ tags: [javascript, loop, assignment-operator]
 
 comments: true
 share: true
+slug: loop-in_decrement-more-than-one
 ---
 
 Assignment Operator(할당 연산자) 사용

@@ -4,6 +4,7 @@ date: 2017-07-18
 tags: [git, gitconfig, vscode, mac, os x]
 comments: true
 share: true
+slug: gitconfig-editor-mac
 ---
 
 ## 윈도우(Windows)

@@ -4,6 +4,7 @@ date: 2017-06-30
 tags: [issue, xml, key, number]
 comments: true
 share: true
+slug: xml-key-number
 ---
 
 ## 증상

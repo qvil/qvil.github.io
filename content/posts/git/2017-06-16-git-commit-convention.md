@@ -4,6 +4,7 @@ date: 2017-06-16
 tags: [git, convention]
 comments: true
 share: true
+slug: git-commit-convention
 ---
 
 - Table of Contents

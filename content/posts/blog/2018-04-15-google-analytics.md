@@ -4,6 +4,7 @@ date: 2018-04-15
 tags: [blog, google-analytics]
 comments: true
 share: true
+slug: google-analytics
 ---
 
 - [1. 갑자기 블로그 회고?](#1-갑자기-블로그-회고)
