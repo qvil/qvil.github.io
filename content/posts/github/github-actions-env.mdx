@@ -1,0 +1,63 @@
+---
+title: Github actions environment variables
+date: 2020-09-25
+tags: [Blog, Github, Gatsby, Google Analytics, Google AdSense]
+slug: github-actions-env
+---
+
+### Google analytics와 adsense 정보를 .env로 관리하는데 배포된 블로그에 적용이 안되는 이슈가 있었다.
+
+내 경우 plugin을 사용하는데 아래와 같은 방식으로 .env를 참조하게 해놨다. 그래서 실제 배포 시 .env가 배포되지 않으므로 plugin이 정상동작하지 않았다.
+
+gatsby.config.js
+
+```js
+{
+  resolve: `gatsby-plugin-google-analytics`,
+  options: {
+    trackingId: process.env.GOOGLE_ANALYTICS_ID,
+  },
+},
+```
+
+그래서 아래와 같은 전략으로 env를 관리하도록 수정했다.
+
+- development
+  1. `gatsby.config.js`가 local의 `.env` 파일 참조
+- production
+  1. `github secrets`에 .env에서 사용하던 환경변수 추가
+  1. github actions(workflow) 동작 시 secrets를 참조하여 env추가
+  1. development와 동일하게 `gatsby.config.js`가 production의 `.env` 파일 참조
+
+### 1. `github secrets`에 .env에서 사용하던 환경변수 추가
+
+![github-secrets](/images/github-secrets.png)
+
+### 2. github actions(workflow) 동작 시 secrets를 참조하여 env추가
+
+.github/workflows/main.yml
+
+```yml
+name: Gatsby Publish
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+    env:
+      GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+      GOOGLE_ADSENSE_ID: ${{ secrets.GOOGLE_ADSENSE_ID }}
+```
+
+## 참고
+
+- https://docs.github.com/en/actions/reference/environment-variables
