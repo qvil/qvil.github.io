@@ -1,0 +1,44 @@
+---
+title: Gatsby blog Github actions사용하여 Github pages에 자동 배포
+date: 2020-09-10
+tags: [Blog, Gatsby, Github Actions, Github Pages]
+---
+
+### 환경
+
+- Github pages를 이용해서 Gatsby 블로그를 배포한다.
+- Gastby build된 파일들은 `master` 브랜치에서 serving되고 블로그 컨텐츠는 `develop` 브랜치에서 관리한다.
+
+### 세팅
+
+1. Github access token 발급: Settings / Developer settings / Personal access tokens
+1. Generate new token: repo권한에 체크, 이름 상관 없음
+   - ![github-new-personal-access-token.png](/images/github-new-personal-access-token.png)
+1. 발급받은 Token을 Repo에 추가: Repo Settings / Secrets / New secret
+   - Name: ACCESS_TOKEN, Value: 발급받은 Token 값
+1. `develop` 브랜치에 .github/workflows/main.yml 추가
+   - **브랜치 이름과 Repo에 추가할 때 입력한 Token 이름을 맞춰줘야한다.** [참고 - Gatsby Publish](https://github.com/marketplace/actions/gatsby-publish)
+
+.github/workflows/main.yml
+
+```yml
+name: Gatsby Publish
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+```
+
+### 사용
+
+`develop` 브랜치에 푸시하면 자동으로 build된다.

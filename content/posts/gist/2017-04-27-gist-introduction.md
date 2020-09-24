@@ -25,25 +25,20 @@ slug: gist-introduction
 
 > [GithubGist][githubgist]에 들어가면 아래 사진을 볼 수 있습니다.
 
-![](/images/gist-1.png)
+![/images/gist-1.png](/images/gist-1.png)
 
     Markdown문법으로 문서를 작성하거나 github에 올리듯이 코드를 작성하면 됩니다.
 
-![](/images/gist-link.png)
+![/images/gist-link.png](/images/gist-link.png)
 
     작성하신 문서에 원하는 링크를 사용하시면 됩니다.
 
 - Embed : HTML `<script>`태그 형식의 링크를 보여줍니다. 블로그 등 다른 사이트에서 Embed script태그를 지원한다면 문서가 Gist대로 보여집니다. 아래 사진은 제 블로그에 Gist를 적용한 예제입니다.
 
-<figure class="half">
-  <a href="/images/gist-embed-example.png">
-	  <img src="/images/gist-embed-example.png" alt="image">
-  </a>
-  <a href="/images/gist-embed.png">
-	  <img src="/images/gist-embed.png" alt="image">
-  </a>
-	<figcaption>Embed Gist 예제</figcaption>
-</figure>
+Embed Gist 예제
+
+![/images/gist-embed-example.png](/images/gist-embed-example.png)
+![/images/gist-embed.png](/images/gist-embed.png)
 
 - Share : 문자 그대로 해당 Gist 공유용 링크
 - Clone Via
@@ -54,15 +49,10 @@ slug: gist-introduction
 
 ## Embed한 사이트에서 TOC제대로 동작 안하는 문제
 
-<figure class="half">
-  <a href="/images/gist-toc-github.png">
-	  <img src="/images/gist-toc-github.png" alt="image">
-  </a>
-  <a href="/images/gist-toc-blog.png">
-	  <img src="/images/gist-toc-blog.png" alt="image">
-  </a>
-	<figcaption>Github에서는 TOC가 잘 동작하지만 Embed한 사이트에서는 TOC가 눌러도 동작 안함.</figcaption>
-</figure>
+Github에서는 TOC가 잘 동작하지만 Embed한 사이트에서는 TOC가 눌러도 동작 안함.
+
+![/images/gist-toc-github.png](/images/gist-toc-github.png)
+![/images/gist-toc-blog.png](/images/gist-toc-blog.png)
 
 > 해당문제는 Gist의 문제라기 보다는 내 블로그와의 TOC 호환성 문제인 것 같다.
 
