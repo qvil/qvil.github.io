@@ -4,7 +4,7 @@ date: 2017-06-20
 tags: [jekyll, blog, gemfile, ruby]
 comments: true
 share: true
-slug: jekyll-theme-gemfile-error
+slug: blog/jekyll-theme-gemfile-error
 ---
 
 ## 에러

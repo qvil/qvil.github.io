@@ -4,7 +4,7 @@ date: 2017-06-15
 tags: [javascript, issue, ajax]
 comments: true
 share: true
-slug: encodeuricomponent
+slug: javascript/encodeuricomponent
 ---
 
 - Table of Contents

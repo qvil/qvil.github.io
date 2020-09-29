@@ -6,7 +6,7 @@ tags: [css, uppercase, lowercase, capitalize, react.js]
 
 comments: true
 share: true
-slug: upper-lower-case-capitalize
+slug: css/upper-lower-case-capitalize
 ---
 
 CSS `text-transform` 속성을 사용하면 된다.(React는 textTransform)

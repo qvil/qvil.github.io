@@ -6,7 +6,7 @@ tags: [react-native]
 
 comments: true
 share: true
-slug: import-setting
+slug: react-native/import-setting
 ---
 
 <!-- TOC -->autoauto- [1. 프로젝트 구조(Project Structure)](#1-프로젝트-구조project-structure)auto- [2. 동작 안하는 예제(Not work example)](#2-동작-안하는-예제not-work-example)auto- [3. 동작 하는 예제(Work Example)](#3-동작-하는-예제work-example)auto- [4. 원인 분석(Cause Analysis)](#4-원인-분석cause-analysis)autoauto<!-- /TOC -->

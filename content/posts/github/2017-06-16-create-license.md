@@ -4,7 +4,7 @@ date: 2017-06-16
 tags: [github, license, mit]
 comments: true
 share: true
-slug: create-license
+slug: github/create-license
 ---
 
 - Table of Contents

@@ -5,7 +5,7 @@ categories: "git"
 tags: [git, grep, cheatsheet]
 comments: true
 share: true
-slug: git-cheatsheet
+slug: git/git-cheatsheet
 ---
 
 - Table of Contents

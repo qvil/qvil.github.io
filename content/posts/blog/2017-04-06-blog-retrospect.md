@@ -4,7 +4,7 @@ date: 2017-04-28
 tags: [blog, jekyll]
 comments: true
 share: true
-slug: blog-retrospect
+slug: blog/blog-retrospect
 ---
 
 # 요약(정리되지 않음)

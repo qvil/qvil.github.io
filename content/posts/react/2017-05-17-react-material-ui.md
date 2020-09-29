@@ -8,7 +8,7 @@ tags: [react.js, material-design]
 
 comments: true
 share: true
-slug: react-material-ui
+slug: react/react-material-ui
 ---
 
 - Table of Contents

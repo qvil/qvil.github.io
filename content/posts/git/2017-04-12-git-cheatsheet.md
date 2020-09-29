@@ -5,7 +5,7 @@ date: 2017-04-27
 tags: [git, gist]
 comments: true
 share: true
-slug: git-cheatsheet
+slug: git/git-cheatsheet
 ---
 
 <script src="https://gist.github.com/qvil/89be0b79e63da6bc7f7f5069268ef1a6.js"></script>

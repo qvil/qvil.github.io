@@ -6,7 +6,7 @@ tags: [javascript, react.js, state-define]
 
 comments: true
 share: true
-slug: state-define-diff-constructor-and-property
+slug: react/state-define-diff-constructor-and-property
 ---
 
 ## 예제(Example)

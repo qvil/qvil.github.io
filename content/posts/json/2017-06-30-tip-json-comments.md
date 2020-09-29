@@ -6,7 +6,7 @@ tags: [json, tip, comments, json5]
 
 comments: true
 share: true
-slug: tip-json-comments
+slug: json/tip-json-comments
 ---
 
 json에서 javascript 주석 문법을 사용하면 에러가 출력된다.

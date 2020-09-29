@@ -4,7 +4,7 @@ date: 2017-06-30
 tags: [docker, mongo, mongodb]
 comments: true
 share: true
-slug: docker-mongo
+slug: docker/docker-mongo
 ---
 
 ## 구글 혹은 [Docker Hub][docker hub]에서 `mongo`검색

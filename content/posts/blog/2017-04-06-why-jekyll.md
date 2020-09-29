@@ -3,7 +3,7 @@ title: "[Jekyll] 블로그 프레임워크 비교, 왜 지킬인가? (Feat. Jeky
 date: 2017-04-07
 categories: blog
 tags: [blog, jekyll]
-slug: why-jekyll
+slug: blog/why-jekyll
 ---
 
 > [Github Page](https://pages.github.com)에 Git History충돌 없이 포스트 버전관리까지 하고싶으면 [Jekyll](https://jekyllrb-ko.github.io)

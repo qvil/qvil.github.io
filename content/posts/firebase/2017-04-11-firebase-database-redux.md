@@ -8,7 +8,7 @@ tags: [firebase, redux]
 
 comments: true
 share: true
-slug: firebase-database-redux
+slug: firebase/firebase-database-redux
 ---
 
 - Table of Contents

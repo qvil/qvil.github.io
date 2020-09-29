@@ -4,7 +4,7 @@ date: 2017-04-12
 tags: [git]
 comments: true
 share: true
-slug: gitconfig
+slug: git/gitconfig
 ---
 
 - Table of Contents

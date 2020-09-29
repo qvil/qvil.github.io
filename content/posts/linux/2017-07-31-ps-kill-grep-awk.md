@@ -6,7 +6,7 @@ tags: [linux, ps, kill, grep, awk]
 
 comments: true
 share: true
-slug: ps-kill-grep-awk
+slug: linux/ps-kill-grep-awk
 ---
 
 ## 프로세스 이름을 찾아서(ps, grep) 프로세스 번호(awk)로 중지(kill)

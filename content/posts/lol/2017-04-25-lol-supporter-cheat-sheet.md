@@ -8,7 +8,7 @@ tags: [lol]
 
 comments: true
 share: true
-slug: lol-supporter-cheat-sheet
+slug: lol/lol-supporter-cheat-sheet
 ---
 
 - Table of Contents

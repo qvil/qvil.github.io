@@ -6,7 +6,7 @@ tags: [teacher appointment exam, C, "2010"]
 
 comments: true
 share: true
-slug: teacher-appointment-exam-problem-2010
+slug: teacher-appointment-exam/teacher-appointment-exam-problem-2010
 ---
 
 ## 문제

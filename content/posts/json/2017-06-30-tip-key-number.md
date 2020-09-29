@@ -6,7 +6,7 @@ tags: [json, tip, key-number]
 
 comments: true
 share: true
-slug: tip-key-number
+slug: json/tip-key-number
 ---
 
 ## 해결

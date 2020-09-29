@@ -6,7 +6,7 @@ tags: [jekyll]
 
 comments: true
 share: true
-slug: jekyll-serve-force-polling
+slug: jekyll/jekyll-serve-force-polling
 ---
 
 ```

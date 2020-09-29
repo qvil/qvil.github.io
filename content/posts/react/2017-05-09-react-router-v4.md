@@ -7,7 +7,7 @@ tags: [react.js, react-router]
 
 comments: true
 share: true
-slug: react-router-v4
+slug: react/react-router-v4
 ---
 
 # React Router란?

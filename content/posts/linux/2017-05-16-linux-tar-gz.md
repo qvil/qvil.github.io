@@ -8,7 +8,7 @@ tags: [linux, tar, gz]
 
 comments: true
 share: true
-slug: linux-tar-gz
+slug: linux/linux-tar-gz
 ---
 
 - Table of Contents

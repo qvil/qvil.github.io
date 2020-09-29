@@ -4,7 +4,7 @@ date: 2017-06-30
 tags: [javascript, tip, ie8, reserved keywords, issue]
 comments: true
 share: true
-slug: tip-ie8-reserved-keywords
+slug: javascript/tip-ie8-reserved-keywords
 ---
 
 ## 이슈, 원인

@@ -6,7 +6,7 @@ tags: [react.js, create-react-app, tutorial]
 
 comments: true
 share: true
-slug: reactjs-tutorial
+slug: react/reactjs-tutorial
 ---
 
 - Table of Contents

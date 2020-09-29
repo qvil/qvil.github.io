@@ -6,7 +6,7 @@ tags: [jquery, disabled, attr, prop]
 
 comments: true
 share: true
-slug: jquery-attribute-disabled
+slug: jquery/jquery-attribute-disabled
 ---
 
 ## jQuery disabled 속성 제어

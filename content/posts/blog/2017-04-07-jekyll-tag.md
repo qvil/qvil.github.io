@@ -3,7 +3,7 @@ title: "[Jekyll] Tag 어떻게 관리할까?"
 date: 2017-04-07 17:13:00 +0900
 tags: [jekyll, tag]
 comments: true
-slug: jekyll-tag
+slug: blog/jekyll-tag
 ---
 
 - 어떻게 태그 관리할지??

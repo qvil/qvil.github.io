@@ -6,7 +6,7 @@ tags: [react, prop-types]
 
 comments: true
 share: true
-slug: react-prop-types
+slug: react/react-prop-types
 ---
 
 <!-- TOC -->autoauto- [1. React Type Check with prop-types](#1-react-type-check-with-prop-types)auto- [2. 예제(Example)](#2-예제example)auto- [3. 코드(Code)](#3-코드code)auto- [4. 참고(Reference)](#4-참고reference)autoauto<!-- /TOC -->

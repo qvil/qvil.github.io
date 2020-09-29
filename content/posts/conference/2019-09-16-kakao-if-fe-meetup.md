@@ -6,7 +6,7 @@ tags: [conference, kakao]
 
 comments: true
 share: true
-slug: kakao-if-fe-meetup
+slug: conference/kakao-if-fe-meetup
 ---
 
 > **카카오 FE Meetup에 오고싶었지만 못온 사람들을 위해서 문서를 작성했는데 관계자분들이 공유되지않기를 원하신다면 연락(<a href="mailto:email@qvil.dev">Email</a>, 댓글 등)주세요. 글 내리겠습니다.**

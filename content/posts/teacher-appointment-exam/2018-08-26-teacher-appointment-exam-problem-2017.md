@@ -6,7 +6,7 @@ tags: [teacher appointment exam, C, "2017"]
 
 comments: true
 share: true
-slug: teacher-appointment-exam-problem-2017
+slug: teacher-appointment-exam/teacher-appointment-exam-problem-2017
 ---
 
 # 문제

@@ -8,7 +8,7 @@ tags: [gist, github]
 
 comments: true
 share: true
-slug: gist-introduction
+slug: gist/gist-introduction
 ---
 
 - Table of Contents
