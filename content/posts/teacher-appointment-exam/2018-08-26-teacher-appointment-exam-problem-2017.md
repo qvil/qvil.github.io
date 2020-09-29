@@ -2,7 +2,7 @@
 title: "[중등교사임용시험-전기전자통신] C언어 2017년도 문제 및 풀이"
 date: 2018-08-26
 categories: "teacher appointment exam"
-tags: [teacher appointment exam, 중등교사임용시험, 전기전자통신, C, "2017"]
+tags: [teacher appointment exam, C, "2017"]
 
 comments: true
 share: true
