@@ -1,8 +1,7 @@
 ---
 title: NestJS REST API 만들기 - 1. DB
 date: 2021-01-04
-tags:
-  - Project, NestJS, REST
+tags: [Project, NestJS, REST]
 slug: project/1-db
 ---
 
