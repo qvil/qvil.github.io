@@ -1,11 +1,28 @@
 ---
 title: NestJS REST API 만들기 - 1. DB
-date: 2021-01-04
-tags: [Project, NestJS, REST]
-slug: project/1-db
+date: 2021-01-13
+tags: [Project, NestJS, REST, API, Database]
+slug: project/nest-rest/1-db
+banner: ./nest-rest-cover.png
 ---
 
 ## DB 선택
+
+Oracle, MySQL, PostgreSQL, MongoDB, FireStore 등 다양한 DB가 있습니다. 무엇을 선택해야 할까요? 제 주변 기준으로 대부분의 경우 MySQL을 추천하는데 그 이유와 제 생각은
+
+1. 대부분의 서비스는 NoSQL보다 RDBMS가 낫다.
+   > 이게 이유가 될 수 있지만 반대로 NoSQL을 쓰면 안될 이유도 아니다.
+1. 정규화를 통해서 데이터 일관성을 보장할 수 있다.
+   > NoSQL도 스키마를 사용하거나(몽구스) 정규화된 설계를 한다면?
+1. 많은 레퍼런스로 개발 할 때 문제를 쉽게 해결할 수 있다.
+   > MongoDB도 프로덕션에 쓴지 오래되지 않았나?
+1. [ACID 트랜잭션](https://ko.wikipedia.org/wiki/ACID)이 보장된다.
+
+## 내 선택
+
+저는 아래와 같은 의문이 들었습니다.
+
+1.
 
 ### RDBMS vs NoSQL
 
