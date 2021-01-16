@@ -1,0 +1,18 @@
+---
+title: [Typescript] Mapped Types
+date: 2021-01-15
+tags: [Typescript]
+slug: mapped-types
+banner: ./ts-banner.png
+---
+
+## Type형식은 같은데 모두 optional 혹은 readonly로 property type을 바꾸고 싶은 경우 함수처럼 사용
+
+```tsx
+export type Readonly<T> = { readonly [P in keyof T]: T[P] };
+export type Partial<T> = { [P in keyof T]?: T[P] };
+```
+
+## 참고
+
+- https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types
