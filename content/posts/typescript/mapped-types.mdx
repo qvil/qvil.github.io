@@ -1,16 +1,29 @@
 ---
-title: [Typescript] Mapped Types
-date: 2021-01-15
+title: Typescript - Mapped Types
+date: 2021-01-21
 tags: [Typescript]
-slug: mapped-types
+slug: typescript/mapped-types
 banner: ./ts-banner.png
 ---
 
 ## Type형식은 같은데 모두 optional 혹은 readonly로 property type을 바꾸고 싶은 경우 함수처럼 사용
 
-```tsx
-export type Readonly<T> = { readonly [P in keyof T]: T[P] };
-export type Partial<T> = { [P in keyof T]?: T[P] };
+```ts
+type Readonly<T> = { readonly [P in keyof T]: T[P] };
+type Partial<T> = { [P in keyof T]?: T[P] };
+```
+
+## 예
+
+name과 age가 필수인 UserType을 PUT이나 PATCH 등 Optional property를 가진 DTO로 만드려면
+
+```ts
+interface UserType {
+  name: string;
+  age: number;
+}
+
+interface CreateUserType extends Partial<UserType> {}
 ```
 
 ## 참고

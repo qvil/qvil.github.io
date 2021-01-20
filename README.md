@@ -1,5 +1,9 @@
 # Qvil Blog
 
+## Error
+
+- 글 title 첫 글자가 특수문자인 경우(내 경우 `[`가 문제였음) 에러남 (예: title: [Typescript])
+
 ## To Do
 
 - [x] AdSense
