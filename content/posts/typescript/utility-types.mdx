@@ -1,0 +1,134 @@
+---
+title: "[Typescript] Utility Types"
+date: 2021-01-22
+tags: [Typescript]
+slug: typescript/utility-types
+banner: ./ts-banner.png
+---
+
+## 지난 번 유용할 것 같은 Mapped Types를 정리하고 더 찾아보니 유용한 유틸리티 타입들이 있다.
+
+공식문서에 좋은 정보들이 있다. 개인적으로 유용한 타입들을 간추리고 필요한 경우 이해를 돕기 위해 예제를 수정하여 소개한다.
+
+### Partial<Type>
+
+`Type`의 모든 속성을 optional로 만듦.
+
+```ts
+interface Todo {
+  title: string;
+  description: string;
+}
+
+function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
+  return { ...todo, ...fieldsToUpdate };
+}
+
+const todo1 = {
+  title: "organize desk",
+  description: "clear clutter",
+};
+
+const todo2 = updateTodo(todo1, {
+  description: "throw out trash",
+});
+```
+
+### Required<Type>
+
+`Type`의 모든 속성을 required로 만듦. Partial과 반대되는 타입.
+
+```ts
+interface Props {
+  a?: number;
+  b?: string;
+}
+
+const obj: Props = { a: 5 };
+
+const obj2: Required<Props> = { a: 5 };
+// Property 'b' is missing in type '{ a: number; }' but required in type 'Required<Props>'.
+```
+
+### Record<Keys,Type>
+
+Object의 key 타입을 `Keys`, value 타입을 `Type`으로 만듦.
+
+```ts
+interface PageInfo {
+  title: string;
+}
+
+type Page = "home" | "about" | "contact";
+
+const nav: Record<Page, PageInfo> = {
+  about: { title: "about page" },
+  contact: { title: "contact us" },
+  home: { title: "home page" },
+};
+
+nav.about;
+// ^ = const nav: Record
+//   ^ (property) about: PageInfo
+```
+
+### Pick<Type, Keys>
+
+`Type`에서 `Keys` 타입을 선택하여 타입을 만듦.
+
+```ts
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoPreview = Pick<Todo, "title" | "completed">;
+
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+
+todo;
+// ^ = const todo: TodoPreview
+```
+
+### Omit<Type, Keys>
+
+`Type`에서 `Keys` 타입을 제외한 모든 속성으로 타입을 만듦. Pick과 반대되는 타입.
+
+```ts
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoPreview = Omit<Todo, "description">;
+
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+
+todo;
+// ^ = const todo: TodoPreview
+```
+
+### NonNullable<Type>
+
+Type에서 `null`과 `undefined`를 제외한 타입.
+
+```ts
+type T0 = NonNullable<string | number | undefined>;
+//    ^ = type T0 = string | number
+type T1 = NonNullable<string[] | null | undefined>;
+//    ^ = type T1 = string[]
+```
+
+이 외에도 `Parameters<Type>`, `ReturnType<Type>`, `ThisType<Type>` 등 다양한 유틸리티 타입이 있다. 타입스크립트를 사용한다면 아래 참고 링크를 참고하여 다양한 유틸리티 타입을 사용해보길 추천한다.
+
+## 참고
+
+- https://www.typescriptlang.org/docs/handbook/utility-types.html
