@@ -10,9 +10,11 @@ banner: ./ts-banner.png
 
 공식문서에 좋은 정보들이 있다. 개인적으로 유용한 타입들을 간추리고 필요한 경우 이해를 돕기 위해 예제를 수정하여 소개한다.
 
-### Partial<Type>
+### Partial`<Type>`
 
-`Type`의 모든 속성을 optional로 만듦.
+`Type`의 모든 속성을 optional로 만듦.
+
+> API GET Return Type을 정의하고 동일한 Type으로 UpdateDTO를 만드는 경우 유용함.
 
 ```ts
 interface Todo {
@@ -34,9 +36,9 @@ const todo2 = updateTodo(todo1, {
 });
 ```
 
-### Required<Type>
+### Required`<Type>`
 
-`Type`의 모든 속성을 required로 만듦. Partial과 반대되는 타입.
+`Type`의 모든 속성을 required로 만듦. Partial과 반대되는 타입.
 
 ```ts
 interface Props {
@@ -116,7 +118,7 @@ todo;
 // ^ = const todo: TodoPreview
 ```
 
-### NonNullable<Type>
+### NonNullable`<Type>`
 
 Type에서 `null`과 `undefined`를 제외한 타입.
 
