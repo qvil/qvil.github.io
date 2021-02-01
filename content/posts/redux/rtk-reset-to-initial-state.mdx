@@ -1,0 +1,45 @@
+---
+title: "[Redux] RTK Reset(Clear) to initial state"
+date: 2021-02-01
+tags: [Redux, Redux DevTools, Immer]
+slug: redux/rtk-reset-to-initial-state
+banner: ./redux-logo-title-dark.png
+---
+
+## How to reset draft to initial state in reducer?(Clear reducer)
+
+아래와 같이 State를 Reset하려는 경우 동작하지 않는다.
+
+```tsx
+const userSlice = createSlice({
+  name,
+  initialState,
+  reducers: {
+    clear: (state) => {
+      state = initialState;
+    },
+  },
+});
+```
+
+Redux DevTools(이하 RTK)은 내부적으로 [Immer](https://github.com/immerjs/immer)를 사용한다.
+
+> It uses the Immer library internally [(Simplifying Reducers with createReducer)](https://redux-toolkit.js.org/usage/usage-guide#simplifying-reducers-with-createreducer)
+
+따라서 Immer의 원리를 이해하고 아래와 같이 수정하면 된다. 참고링크도 Immer의 이슈링크다.
+
+**initialState를 return하면 된다.**
+
+```tsx
+const userSlice = createSlice({
+  name,
+  initialState,
+  reducers: {
+    clear: () => initialState,
+  },
+});
+```
+
+## 참고
+
+- https://github.com/immerjs/immer/issues/296#issuecomment-455859791
