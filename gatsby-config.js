@@ -112,5 +112,12 @@ module.exports = {
         publisherId: process.env.GOOGLE_ADSENSE_ID,
       },
     },
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: process.env.GOOGLE_ADSENSE_ID,
+        head: true, // Optional
+      },
+    },
   ].filter(Boolean),
 };

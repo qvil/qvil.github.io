@@ -18,6 +18,7 @@
     "gh-pages": "gh-pages -d public -b master"
   },
   "dependencies": {
+    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "@lekoarts/gatsby-theme-minimal-blog": "^2.5.1",
     "gatsby": "^2.20.36",
     "gatsby-plugin-google-adsense": "^1.1.3",
