@@ -22,30 +22,17 @@ module.exports = {
     siteImage: `/banner.jpg`,
     // Twitter Handle
     author: `@qvil`,
-    // Links displayed in the header on the right side
-    externalLinks: [
-      {
-        name: `Github`,
-        url: `https://github.com/qvil`,
-      },
-    ],
-    // Navigation links
-    navigation: [
-      {
-        title: `Blog`,
-        slug: `/blog`,
-      },
-    ],
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        blogPath: "/",
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Home`,
+            slug: `/`,
           },
           {
             title: `About`,
