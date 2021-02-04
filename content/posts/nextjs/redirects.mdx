@@ -1,0 +1,33 @@
+---
+title: "[Next.js] Redirects"
+date: 2021-02-04
+tags: [Next.js]
+slug: nextjs/redirects
+banner: ./nextjs-logo.svg
+---
+
+Next.js 9.5부터 추가된 Redirects 기능을 사용하면 Source URL을 원하는 Destination URL로 간단하게 Redirect 할 수 있다.
+
+## Wildcard Path Matching
+
+> 예를 들어 `/examples`로 시작하는 모든 URL `/` 로 리다이렉트 시키고 싶은 경우.
+
+`*`를 리눅스 처럼 `source: "/examples*"` 혹은 `source: "/examples/*"`로는 동작하지 않고 꼭 아래와 같이(`source: "/examples/:example*"`) 해줘야 동작한다.
+
+```tsx
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: "/examples/:example*",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
+};
+```
+
+## 참고
+
+- https://nextjs.org/docs/api-reference/next.config.js/redirects
