@@ -1,0 +1,15 @@
+---
+title: "[Web] URL Encode Bug"
+date: 2021-03-09
+tags: [Web, Bug, URL, Encoding, Swagger]
+slug: web/url-encode-bug
+# banner: ./web-performance-optimization-featured.png
+---
+
+## Swagger에서 가져온 URL로 Axios get 하는데 URL에 `%E2%80%8B`이 붙어서 요청이 제대로 안되는 이슈
+
+decodeURIComponent, encodeURIComponent를 사용해도 해결이 안되었는데
+
+Windows에서 Swagger end point string을 복사했는데 Format이 다르게 인식된 이슈였다.
+
+**붙여넣기했던 string을 지우고 새로 타이핑해서 해결**
