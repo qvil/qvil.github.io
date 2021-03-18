@@ -14,7 +14,7 @@ Next.js 9.5부터 추가된 Redirects 기능을 사용하면 Source URL을 원�
 
 `*`를 리눅스 처럼 `source: "/examples*"` 혹은 `source: "/examples/*"`로는 동작하지 않고 꼭 아래와 같이(`source: "/examples/:example*"`) 해줘야 동작한다.
 
-```tsx
+```js
 module.exports = {
   async redirects() {
     return [

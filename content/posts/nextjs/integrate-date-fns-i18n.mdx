@@ -1,0 +1,109 @@
+---
+title: "[Next.js] Integrate date-fns i18n"
+date: 2021-03-19
+tags: [Next.js, date-fns, i18n]
+slug: nextjs/integrate-date-fns-i18n
+banner: ./nextjs-logo.png
+---
+
+## Next.js에 date-fns를 적용할 때 Server와 Client환경 모두 설정을 해줘야한다.
+
+### 0. Setup Next.js
+
+[Internationalized Routing
+](https://nextjs.org/docs/advanced-features/i18n-routing)을 사용한다면
+
+next.config.js
+
+```js
+module.exports = {
+  i18n: {
+    locales: ["ko", "en"],
+    defaultLocale: "ko",
+  },
+};
+```
+
+### 1. Create custom `format` function
+
+[date-fns의 i18n 문서](https://date-fns.org/v2.19.0/docs/I18n)(Check version!)를 참고하면 아래와 같이 date-fns의 format function을 customizing해서 사용하는 방식이다.
+
+> Global object의(Browser: window/Node.js: global) custom property를 사용하므로 declare 해줘야한다. 참고: [[Typescript] declare custom property type of global object(window/global)](/typescript/declare-custom-property-type-of-global-object)
+
+date.ts
+
+```ts
+import { format as fnsFormat, Locale } from "date-fns";
+import { ko, enUS } from "date-fns/locale";
+
+type DateType = number | Date;
+
+const locales: Record<string, Locale> = { ko, enUS };
+
+// by providing a default string of 'PP' or any of its variants for `formatStr`
+// it will format dates in whichever way is appropriate to the locale
+export const format = (date: DateType, formatStr = "PP") => {
+  const locale =
+    typeof window !== "undefined"
+      ? locales[window.__localeId__]
+      : locales[global.__localeId__]; // Check browser, server
+
+  return fnsFormat(date, formatStr, {
+    locale,
+  });
+};
+```
+
+### 2. Setup server side
+
+> `App` currently does not support Next.js [Data Fetching methods](https://nextjs.org/docs/basic-features/data-fetching) like `getStaticProps` or `getServerSideProps`.
+
+\_app.tsx
+
+```tsx
+MyApp.getInitialProps = async (appContext: AppContext) => {
+  const { router } = appContext;
+  const locale = router.locale; // 'ko' or 'en'
+  const appProps = await App.getInitialProps(appContext);
+
+  global.__localeId__ = locale;
+
+  return { ...appProps };
+};
+```
+
+### 3. Setup client side
+
+\_document.tsx
+
+```tsx
+loadWindowProperty = (locale) => (
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `window.__localeId__ = "${locale}"`,
+    }}
+  ></script>
+);
+
+render() {
+  const { loadWindowProperty } = this;
+  const { locale } = this.props; // 'ko' or 'en'
+
+  return (
+    <Html>
+      <body>
+        {loadWindowProperty(locale)}
+```
+
+#### 4. Use custom `format` function
+
+```tsx
+import { format } from "src/libs/date";
+
+format(Date.now(), "MMM d',' Y");
+```
+
+## 참고
+
+- https://date-fns.org/v2.19.0/docs/I18n
+- https://nextjs.org/docs/advanced-features/custom-app#caveats
