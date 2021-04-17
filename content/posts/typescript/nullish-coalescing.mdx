@@ -1,0 +1,36 @@
+---
+title: "[Typescript] Nullish Coalescing (??) Check null/undefined with question operator"
+date: 2021-04-18
+tags: [Typescript]
+slug: typescript/nullish-coalescing
+banner: ./ts-banner.png
+---
+
+- ?? 연산자는 null이나 undefined인 경우만 막아준다.
+- 0이나 false는 그대로 유지한다.
+
+값이 undefined, null만 체크하고 싶을 때(0, false 제외) 삼항연산자 대신 사용 가능하다.
+
+```ts
+interface Book {
+  label?: string;
+}
+
+label !== undefined ? label ?? defaultLabel // Before
+label ?? defaultLabel // After
+```
+
+Test null/undefined check
+
+```ts
+const value = "qvil";
+
+0 ?? value; // 0
+false ?? value; // false
+null ?? value; // qvil
+undefined ?? value; // qvil
+```
+
+## 참고
+
+- https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#nullish-coalescing
