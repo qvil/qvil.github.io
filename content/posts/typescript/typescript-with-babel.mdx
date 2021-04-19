@@ -8,7 +8,7 @@ banner: ./ts-banner.png
 
 ## Typescript가 ES6+문법을 ES5- Javascript로 변환해준다면 Babel은 필요한가?
 
-> **상황에 따라 다름.** 아래에 구체적으로 필요한 경우 설명
+> **상황에 따라 다름.** 아래 구체적인 설명
 
 ### Babel vs `tsc` for TypeScript
 
@@ -33,7 +33,7 @@ https://babeljs.io/en/setup
 
 #### Optional chaining, Macro, ...etc
 
-- 2021-04-19 Typescript v3.7에서 지원한다. => 더이상 이유가 아님. [참고](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html)
+- (2021-04-19기준) Typescript v3.7에서 지원한다. => 더이상 이유가 아님. [참고](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html)
 
 - https://github.com/jgierer12/awesome-babel-macros를 참고하여 다양한 Babel macro를 사용하는 경우(난 사용 안해봤지만 Typescript에서 지원하지 않는 기능이 Babel에 있다는게 핵심.)
 
@@ -50,7 +50,7 @@ tsconfig.json
 ```
 {
   "compilerOptions": {
-    "isolatedModules": true
+    "isolatedModules": true // Ensure that each file can be safely transpiled without relying on other imports.
   }
 }
 ```
@@ -83,9 +83,25 @@ tsconfig.json
 }
 ```
 
+### Babel for Transpiling, tsc for Type check
+
+- Babel은 Transpiling할 때 Type check를 할 수 없다.
+- Babel은 Transpiling할 때 `.d.ts`를 만들 수 없다. 라이브러리 만드는 경우 Babel만으로는 어려울 수 있다.
+
+tsconfig.json
+
+```
+{
+  "compilerOptions": {
+    "declaration": true // Generate .d.ts files from TypeScript and JavaScript files in your project.
+  }
+}
+```
+
 ## 참고
 
 - https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html
 - https://iamturns.com/typescript-babel/
 - https://ui.toast.com/weekly-pick/ko_20181220
 - https://stackoverflow.com/questions/44020689/why-would-i-use-typescript-and-babel-together
+- https://typescript-kr.github.io/pages/tutorials/babel-with-typescript.html
