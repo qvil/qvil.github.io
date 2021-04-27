@@ -1,0 +1,53 @@
+---
+title: "[Next.js] Transpile external npm package/Transpile modules inside node_modules"
+date: 2021-04-27
+tags: [Next.js, Cross Browsing, IE]
+slug: nextjs/transpile-modules
+banner: ./nextjs-logo.png
+---
+
+## 외부 라이브러리가 IE를 지원하지 않는 경우 Transpile하지 않으면 크로스 브라우징 문제가 생긴다.
+
+Next.js가 babel로 transpile해줄 거란 기대를 할 수 있는데 **Next.js는 기본적으로 외부 패키지를 Transpile하지 않는다.**
+
+> NextJS ignores node_modules by default
+
+https://stackoverflow.com/questions/60300372/in-nextjs-how-to-build-when-referencing-external-npm-package-that-contains-svgs
+
+> But we can't do this now we exclude everything inside node_modules from babel transpiling.
+
+https://github.com/vercel/next.js/issues/706#issue-199471918
+
+## 이를 해결하기 위해서 [next-transpile-modules](https://github.com/martpie/next-transpile-modules) 사용
+
+1. 설치 `npm install --save next-transpile-modules`
+1. Modify next.config.js
+
+next.config.js
+
+```js
+const withTM = require("next-transpile-modules")(["some-module"]);
+
+module.exports = withTM({
+  // ...
+});
+```
+
+## 다른 플러그인과 함께 사용해야 하는 경우 next-compose-plugins를 이용하여 아래와 같이 사용할 수 있다.
+
+```js
+const withPlugins = require("next-compose-plugins");
+const withTM = require("next-transpile-modules")([
+  "some-module",
+  "and-another",
+]);
+
+module.exports = withPlugins([withTM], {
+  // ...
+});
+```
+
+## 참고
+
+- (2021-04-27 기준)https://github.com/vercel/next.js/issues/706 에서 지속적으로 논의되고 있다.
+- https://github.com/martpie/next-transpile-modules
