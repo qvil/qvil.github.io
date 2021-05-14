@@ -1,0 +1,28 @@
+---
+title: "[React] React scroll to bottom"
+date: 2021-05-14
+tags: [React, Scroll]
+slug: react/react-scroll-to-bottom-with-messages-effect
+---
+
+## React 채팅앱 채팅 전송 시 scrollToBottom 구현
+
+1. ref로 Element의 scrollTop을 scrollHeight로 변경해주는 scrollToBottom 함수 구현
+1. useEffect로 messages state변경 시 scrollToBottom함수 호출
+
+```tsx
+const messageBoxRef = useRef<HTMLUListElement>();
+const [messages, setMessages] = useState();
+
+const scrollToBottom = () => {
+  if (messageBoxRef.current) {
+    messageBoxRef.current.scrollTop = messageBoxRef.current.scrollHeight;
+  }
+};
+
+useEffect(() => {
+  scrollToBottom();
+}, [messages]);
+
+<div ref={messageBoxRef}>{renderChat()}</div>;
+```
