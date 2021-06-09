@@ -1,0 +1,124 @@
+---
+title: "[Typescript] Differences Between Type Aliases and Interfaces, Type과 Interface 차이점"
+date: 2021-06-09
+tags: [Typescript, Type, Interface]
+slug: typescript/differences-between-type-aliases-and-interfaces
+banner: ./ts-banner.png
+---
+
+## 요약
+
+- Type과 Interface는 거의 모든 기능이 유사하다. 대분분의 경우 취향에 따라 선택 가능.
+- Type은 Declare merging 불가능. 그러나 Interface는 가능
+- Interface는 object 형식만 선언할 수 있고 Primitive type은 선언할 수 없다.
+- 에러메세지에서 Interface는 이름이 나오지만 Type은 이름이 안나온다.
+
+## 같은 기능 - Type과 Interface 타입 확장
+
+### Extending an interface
+
+```ts
+interface Animal {
+  name: string;
+}
+
+interface Bear extends Animal {
+  honey: boolean;
+}
+
+const bear = getBear();
+bear.name;
+bear.honey;
+```
+
+### Extending a type via intersections
+
+```ts
+interface Animal {
+  name: string;
+}
+
+interface Bear extends Animal {
+  honey: boolean;
+}
+
+const bear = getBear();
+bear.name;
+bear.honey;
+```
+
+## Declare merging - 새로운 필드를 추가할 때 Interface는 가능하지만 Type은 안된다.
+
+### Adding new fields to an existing interface
+
+```ts
+interface Bear {
+  name: string;
+}
+
+interface Bear {
+  honey: boolean;
+}
+
+const bear: Bear = {
+  name: "teddy",
+  honey: true,
+};
+
+console.log(bear);
+
+// [LOG]: {
+//   "name": "teddy",
+//   "honey": true
+// }
+```
+
+### A type cannot be changed after being created
+
+```ts
+type Bear = {
+  name: string;
+};
+
+type Bear = {
+  honey: boolean;
+};
+
+// Error: Duplicate identifier 'Bear'.
+```
+
+## Declare the shapes of object, Not re-name primirives
+
+```ts
+type SomeNumber = number;
+interface MyNumber {
+  number: number;
+}
+
+interface SomeType extends number {} // X
+```
+
+## 에러메세지
+
+```ts
+interface Mammal {
+  name: string;
+}
+
+function echoMammal(m: Mammal) {
+  console.log(m.name);
+}
+
+echoMammal({ name: 12343 }); // Error: (property) Mammal.name: string
+
+type MammalType = { name: string };
+function echoAnimal(m: MammalType) {
+  console.log(m.name);
+}
+
+echoAnimal({ name: 12345 }); // Error: (property) name: string
+```
+
+## 참고
+
+- https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
