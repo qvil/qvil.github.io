@@ -1,0 +1,83 @@
+---
+title: "[Web] Why CORS Needed? "
+date: 2021-07-19
+tags: [Web, Security, CSP, CORS]
+slug: web/why-cors-needed
+---
+
+CORS가 왜 생겼는지 설명하기에 앞서 웹 보안 모델에 대해 알 필요가 있다.
+
+[Web Fundamentals][wf]에 따르면
+
+> 웹의 보안 모델은 [동일 출처 정책][sop]에 근간을 두고 있습니다. https://mybank.com의 코드는 https://mybank.com의 데이터에만 액세스 권한이 있으며 https://evil.example.com에는 액세스 권한이 없습니다.
+
+> 예를 들어, 교차 사이트 스크립팅(XSS) 공격은 사이트를 속여 악성 코드를 의도된 콘텐츠와 함께 전달하게 하여 동일 출처 정책을 우회합니다.
+
+### XSS
+
+> XSS 공격을 통해 공격자 는 다른 사용자가 보는 웹 페이지에 클라이언트 측 스크립트 를 삽입 할 수 있습니다. 사이트 간 스크립팅 취약점은 공격자가 동일 출처 정책 과 같은 액세스 제어 를 우회하는 데 사용할 수 있습니다. - [XSS][xss]
+
+### 콘텐츠 보안 정책/CSP(Content-Security-Policy)
+
+> 최신 브라우저는 [XSS][xss] 공격의 위험과 영향을 줄이기 위한 방어책으로 콘텐츠 보안 정책([CSP][csp])에 중점을 두고 있다.
+
+> HTTP Content-Security-Policy응답 헤더를 통해 웹 사이트 관리자는 사용자 에이전트가 주어진 페이지에 대해 로드할 수 있는 리소스를 제어할 수 있습니다. ... 이는 사이트 간 스크립팅 공격( XSS (en-US) ) 으로부터 보호하는 데 도움이 됩니다. - [콘텐츠 보안 정책][csp]
+
+> XSS 공격에서는 브라우저가 애플리케이션에 속한 스크립트와 제삼자가 악의적으로 주입한 스크립트를 구분하지 못한다는 문제점을 악용합니다. ... 브라우저는 소스에 관계없이 페이지에서 요청하는 코드라면 무엇이든 다운로드하여 실행합니다.
+
+예를 들어 어떤 페이지가 https://apis.google.com/ 에서 코드를 로드하고 실행한다. 우리는 그 코드를 신뢰하지만 브라우저가 apis.google.com에서 받은 코드는 유익한 코드이지만 apis.evil.example.com에서 받은 코드는 유익하지 않다고 스스로 알 수 없다.
+
+스크립트 소스 허용 목록을 `자기 자신`, `https://apis.google.com`만 허용한 Content-Security-Policy
+
+#### Response Header 예제
+
+```
+Content-Security-Policy: script-src 'self' https://apis.google.com
+```
+
+이 정책을 정의해두면 브라우저가 다른 소스에서 스크립트를 로드하는 대신 그냥 오류를 발생시킵니다.
+
+![csp-error](https://developers.google.com/web/fundamentals/security/csp/images/csp-error.png)
+
+## CORS
+
+웹 보안 모델을 이해하더라도 **다른 도메인의 리소스에 접근해야되는 경우**가 생긴다. 이 경우 **CORS를 허용해서 다른 도메인에서 리소스에 접근할 수 있게 할 수 있다.** 그렇다고 모든 도메인에게 접근 권한을 주면 어떤 보안 문제가 생길지 알 수 없다.
+
+> CORS 표준은 서버가 자산에 액세스할 수 있는 사람뿐만 아니라 자산에 액세스할 수 있는 방법 을 지정할 수 있도록 하기 때문에 필요합니다. - [codecademy][codecademy]
+
+### CORS 외부 리소스 요청 관리
+
+[CORS Headers][cors-headers]를 참고해서 다양한 방법으로 관리 할 수 있다.
+
+### Preflight
+
+CORS 요청인 경우 HTTP 요청 전 서버측에서 요청 메서드와 헤더에 대해 인식하고 있는지 체크한다. ([Simple Requests][simple-requests]인 경우 Preflight가 일어나지 않는다.)
+
+Access-Control-Request-Method, Access-Control-Request-Headers, Origin 총 3가지의 HTTP request headers를 사용하는 HTTP Method(OPTIONS) 요청이다.
+
+## 결론
+
+- 웹은 보안 모델 [동일 출처 정책(SOP)][sop]을 근간으로 [교차 사이트 스크립팅(XSS)][xss] 공격을 막는다.
+- 그래서 브라우저는 다른 출처에서 리소스를 읽으려는 경우 [CORS][cors] 에러를 반환한다.
+- CORS는 다양한 방법으로 액세스할 대상과 방법을 지정할 수 있다.
+
+## 참고
+
+- https://developer.mozilla.org/ko/docs/Web/HTTP/CORS
+- https://developers.google.com/web/fundamentals/security/csp
+- https://en.wikipedia.org/wiki/Same-origin_policy
+- https://en.wikipedia.org/wiki/Cross-site_scripting
+- https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Content-Security-Policy
+- https://www.codecademy.com/articles/what-is-cors
+- https://developer.mozilla.org/ko/docs/Glossary/Preflight_request
+- https://developer.mozilla.org/ko/docs/Web/HTTP/CORS#%EB%8B%A8%EC%88%9C_%EC%9A%94%EC%B2%ADsimple_requests
+
+[cors]: https://developer.mozilla.org/ko/docs/Web/HTTP/CORS
+[cors-headers]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#cors
+[wf]: https://developers.google.com/web/fundamentals/security/csp
+[sop]: https://en.wikipedia.org/wiki/Same-origin_policy
+[xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[csp]: https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Content-Security-Policy
+[codecademy]: https://www.codecademy.com/articles/what-is-cors
+[preflight]: https://developer.mozilla.org/ko/docs/Glossary/Preflight_request
+[simple-requests]: https://developer.mozilla.org/ko/docs/Web/HTTP/CORS#%EB%8B%A8%EC%88%9C_%EC%9A%94%EC%B2%ADsimple_requests
