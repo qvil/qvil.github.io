@@ -1,0 +1,30 @@
+---
+title: "[Yarn] Downgrade to v1"
+date: 2021-11-08
+tags: [Yarn]
+slug: yarn/downgrade
+---
+
+## Yarn berry를 사용하다가 v1으로 다운그레이드 해야하는 경우
+
+[yarn set version][yarn set version]을 보면 아래와 같이 안내되어있지만 동작하지 않는 경우가 있다.
+
+```sh
+yarn set version 1.22.1
+```
+
+`~/.yarnrc.yml` 파일을 열어보면 아래와 같은데 이 파일을 제거하고 `yarn set version 1.22.1` 하면 다운그레이드 된다.
+
+```yml
+yarnPath: ".yarn/releases/yarn-berry.cjs"
+```
+
+`yarn -v`로 확인
+
+```sh
+1.22.15
+```
+
+그래도 안되면 `~/.yarnrc.yml`파일을 프로젝트 내부 폴더에서 찾아서 위와 같은 방법으로 삭제하면 된다.
+
+[yarn set version]: https://yarnpkg.com/cli/set/version
