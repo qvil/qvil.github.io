@@ -1,0 +1,30 @@
+---
+title: "[Typescript] Type from object key"
+date: 2021-12-21
+tags: [Typescript]
+slug: typescript/type-from-object-key
+banner: ./ts-banner.png
+---
+
+## Object의 Key를 Type으로 사용하려면 keyof typeof Object
+
+```tsx
+const MyObject = {
+  key: "key",
+  name: "name",
+};
+
+interface ChildProps {
+  type: keyof typeof MyObject;
+}
+
+const Child = ({ type }: ChildProps) => {
+  return <div>type: {type}</div>;
+};
+
+const Parent = () => {
+  return <Child type="name" />;
+};
+```
+
+![type-from-object-key-result.jpg](type-from-object-key-result.jpg)
