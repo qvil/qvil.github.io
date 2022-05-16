@@ -1,0 +1,23 @@
+---
+title: "[Javscript] Conditional object properties using spread operator"
+date: 2022-05-16
+tags: [Javascript]
+slug: javascript/conditional-object-properties-using-spread-operator
+banner: ./js-banner.png
+---
+
+## URL query param이 있는 경우에만 API 호출 시 query param을 전달하는 경우 많이 사용한다.
+
+```tsx
+const { query: { someQuery } } = context;
+const { data } = await fetchSomething({
+  params: {
+    ...(someQuery && { someQuery }),
+  },
+});
+```
+
+## References
+
+- [In JavaScript, how to conditionally add a member to an object?](https://stackoverflow.com/questions/11704267/in-javascript-how-to-conditionally-add-a-member-to-an-object/40560953#40560953)
+- [Conditional Object Properties Using Spread in JavaScript](https://medium.com/@slamflipstrom/conditional-object-properties-using-spread-in-javascript-714e0a12f496)
