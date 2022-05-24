@@ -1,0 +1,28 @@
+---
+title: "[ESLint] VSCode에서 ESLint 수정한대로 동작 안할 때/Not fixing in VSCode on save"
+date: 2022-05-24
+tags: [ESLint]
+slug: tools/eslint-not-fixing-in-vscode-on-save
+banner: /images/eslint.png
+---
+
+## settings.json에 아래 없으니까 적용 안되고 있었음.
+
+### 1. 설정(cmd + ,)
+
+![vscode-settings](./vscode-settings.png)
+
+### 2. settings.json에 아래 코드 추가
+
+```json
+"eslint.validate": [
+  "typescript",
+  "typescriptreact",
+  "javascript",
+  "javascriptreact"
+],
+```
+
+## References
+
+[ESLint in VSCode not fixing on save](https://stackoverflow.com/a/68016089/19090260)
