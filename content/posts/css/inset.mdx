@@ -1,0 +1,34 @@
+---
+title: "[CSS] inset"
+date: 2022-06-15
+tags: [css]
+slug: css/inset
+banner: /images/css-banner.png
+---
+
+> The **`inset`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property is a shorthand that corresponds to the [top](https://developer.mozilla.org/en-US/docs/Web/CSS/top), [right](https://developer.mozilla.org/en-US/docs/Web/CSS/right), [bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/bottom)
+> , and/or [left](https://developer.mozilla.org/en-US/docs/Web/CSS/left) properties. It has the same multi-value syntax of the [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) shorthand.
+
+## 아래와 같이 floating된 element 중앙정렬할 때 쓰는 코드를
+
+```css
+position: fixed; // or absolute
+top: 0;
+left: 0;기
+right: 0;
+bottom: 0;
+```
+
+## inset을 사용해서 아래와 같이 간결하게 대체할 수 있다.
+
+```css
+inset: 0;
+```
+
+## [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/inset#browser_compatibility)
+
+IE 지원 안함.
+
+## Reference
+
+[inset - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/inset)
