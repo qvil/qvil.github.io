@@ -1,0 +1,77 @@
+---
+title: "[CSS] No Extra Semicolons"
+date: 2022-07-06
+tags: [css, emotion]
+slug: css/no-extra-semicolons
+banner: /images/css-banner.png
+---
+
+## 문제: 아래 문법 중 어느게 맞을까요?
+
+### 1번
+
+```tsx
+import emotionReset from "emotion-reset";
+import { css } from "@emotion/react";
+
+const style = css`
+  ${emotionReset};
+`;
+```
+
+### 2번
+
+```tsx
+import emotionReset from "emotion-reset";
+import { css } from "@emotion/react";
+
+const style = css`
+  ${emotionReset}
+`;
+```
+
+## 정답: 둘 다 맞습니다.
+
+css에서 세미콜론을 추가로 찍어도 에러가 발생하지 않습니다.
+
+```tsx
+import { css } from "@emotion/react";
+
+const style = css`
+  display: none;;
+`;
+```
+
+## 왜 궁금하죠?
+
+Prettier에서 세미콜론을 안찍어주고 동작에러도 없어서 코드리뷰 과정에서 사람에 따라 세미콜론이 다르게 찍혀서 알게 되었고 궁금해서 찾아봤는데 위와 같은 style에 세미콜론을 찍으면 [stylelint의 no-extra-semicolons](https://stylelint.io/user-guide/rules/list/no-extra-semicolons/) 룰에서 에러를 발생시킵니다.
+
+## 왜 헷갈렸을까?
+
+아래와 같이 스타일에 세미콜론 자체가 빠지면 동작에도 에러가 나는데 이것과 헷갈렸던 것이 아닐까 싶습니다.
+
+```tsx
+import { css } from "@emotion/react";
+
+const style = css`
+  display: none font-size: 10px
+`;
+```
+
+## 결론
+
+**[@emotion/css](https://emotion.sh/docs/@emotion/css)**로 만들어진 스타일에는 세미콜론(`;`)을 추가할 필요 없다.
+
+```tsx
+import emotionReset from "emotion-reset";
+import { css } from "@emotion/react";
+
+const style = css`
+  ${emotionReset}
+`;
+```
+
+## References
+
+- [Is there a way to resolve the Stylelint error for semicolons in CSS variables?](https://stackoverflow.com/questions/63222032/is-there-a-way-to-resolve-the-stylelint-error-for-semicolons-in-css-variables)
+- [no-extra-semicolons | Stylelint](https://stylelint.io/user-guide/rules/list/no-extra-semicolons/)
