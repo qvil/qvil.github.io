@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.qvil.dev/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/about/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/css/no-extra-semicolons/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/css/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/emotion/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/css/inset/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/css/pseudo-element-pseudo-class/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/pseudo-element/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/pseudo-class/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tools/eslint-not-fixing-in-vscode-on-save/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/es-lint/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/conditional-interface-in-react-component/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/typescript/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/react/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/conditional-object-properties-using-spread-operator/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/javascript/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/type-from-object-key/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/yarn/downgrade/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/yarn/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/web/why-cors-needed/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/web/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/security/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/csp/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/cors/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/web/ie-to-edge-redirection/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/next-js/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/internet-explorer/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/edge/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/microsoft/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/differences-between-type-aliases-and-interfaces/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/type/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/interface/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/react-scroll-to-bottom-with-messages-effect/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/scroll/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/nextjs/transpile-modules/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/cross-browsing/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/ie/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/http/entity-tag/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/http/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/e-tag/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/typescript-with-babel/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/babel/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/nullish-coalescing/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/error/react-typescript-extension/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/error/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/comparison-object-value/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/nextjs/integrate-date-fns-i18n/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/date-fns/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/i-18-n/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/declare-custom-property-type-of-global-object/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/upper-and-lower-case/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/git/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/error/react-use-type-error/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/react-use/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/bug/url-encode/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/url/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/encoding/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/swagger/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/nextjs/headers/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/nextjs/redirects/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/redux/rtk-reset-to-initial-state/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/redux/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/redux-dev-tools/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/immer/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/utility-types/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/typescript/mapped-types/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/project/nest-rest/0-intro/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/project/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/nest-js/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/rest/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/url-slug/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/blog/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gatsby/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/slug/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/github/github-actions-env/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/github/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/google-analytics/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/google-ad-sense/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/gatsby-github-actions/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/github-actions/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/github-pages/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/2020-blog-update-jekyll-to-gatsby/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/lsof-port-process/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/linux/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/lsof/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/port/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/process/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/immer-not-working-deconstruct/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/conference/kakao-if-fe-meetup/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/conference/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/kakao/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/conference/kakao-if/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/teacher-appointment-exam/teacher-appointment-exam-problem-2017/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/teacher-appointment-exam/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/c/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/2017/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react-native/import-setting/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/react-native/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react-native/create-react-native-app-absolute-path/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/create-react-native-app/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/absolute-path/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/react-prop-types/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/prop-types/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/floating-point-calculation/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/js/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/float/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/to-fixed/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/deprecated-component-life-cycle/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/lifecycle/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/component-will-receive-props/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/get-derived-state-from-props/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/object-property-speed/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/object/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/jekyll/jekyll-serve-force-polling/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/jekyll/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/docker/docker-error-response/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/docker/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/google-analytics/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/state-define-diff-constructor-and-property/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/react-js/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/state-define/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/git-reset/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/reset/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/recovery/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/github/markdown-license-badges/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/license/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/badge/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/parseint/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/parse-int/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/radix/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/ps-kill-grep-awk/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/ps/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/kill/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/grep/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/awk/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/yarn-install/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/install/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/css/upper-lower-case-capitalize/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/uppercase/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/lowercase/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/capitalize/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/node.js/express-cors/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/node-js/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/express/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/ajax/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/reactjs-tutorial/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/create-react-app/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/tutorial/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/react-router-v4/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/react-router/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/github/emoji-cheat-sheet/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/emoji/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/cheat-sheet/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gitlagb/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/gitconfig-editor-mac/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gitconfig/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/vscode/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/mac/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/os-x/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/loop-in_decrement-more-than-one/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/loop/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/assignment-operator/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/decimal-point/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/decimal-point/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/floating-point/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/es6/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/es-2015/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/es-6/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/grep-cat/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/cat/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/docker/docker-mongo/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/mongo/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/mongodb/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/issue/xml-key-number/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/issue/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/xml/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/key/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/number/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/tip-ie8-reserved-keywords/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/tip/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/ie-8/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/reserved-keywords/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/tip-switch-or/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/switch/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/or/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/json/tip-json-comments/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/json/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/comments/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/json-5/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/json/tip-key-number/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/key-number/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/c-syslog/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/debug/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/log/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/syslog/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/teacher-appointment-exam/teacher-appointment-exam-problem-2010/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/2010/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/teacher-appointment-exam/teacher-appointment-exam-problem-2011/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/2011/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/array/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/memset/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/jquery/jquery-attribute-disabled/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/jquery/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/disabled/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/attr/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/prop/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/node.js/mocha-unit-test/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/mocha/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/unit-test/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/jekyll-theme-gemfile-error/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gemfile/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/ruby/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/node.js/npm-create-publish/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/npm/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/publish/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/git-commit-convention/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/convention/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/git-reset-reflog/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/github/create-license/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/mit/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/git-cheatsheet/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/cheatsheet/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/javascript/encodeuricomponent/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/git-os-line-endings/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/react/react-material-ui/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/material-design/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/linux/linux-tar-gz/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/tar/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gz/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/blog-retrospect/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/rakefile/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/gist/gist-introduction/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/gist/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/lol/lol-jungle-cheat-sheet/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/lol/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/lol/lol-supporter-cheat-sheet/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/git/gitconfig/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/firebase/firebase-database-redux/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/firebase/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/why-jekyll/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/blog/jekyll-tag/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/tag/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/introduction-to-defence-against-the-dark-arts/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/dark-arts/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/fantastic-beasts-and-where-to-find-them/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/novel/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/examples/curses-counter-curses-and-more/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/harry-potter-and-the-half-blood-prince/</loc>
+  <lastmod>2022-07-05T16:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.qvil.dev/tags/highlight/</loc>
+  <lastmod>2022-07-05T16:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
