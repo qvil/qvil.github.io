@@ -1,0 +1,53 @@
+---
+title: "[GraphQL] Error - Server cannot be reached(400), Playground introspection"
+date: 2022-10-04
+tags: [graphql, apollo, strapi, heroku]
+slug: graphql/error-server-cannot-be-reached-introspection
+banner: /images/graphql-banner.png
+---
+
+- Playground 400 error
+- Network error: Response not successful: 
+- server cannot be reached
+- GraphQL introspection is not allowed by Apollo Server, graphql introspection is not allowed by apollo server but the query contained `**schema or **type`
+
+## What
+
+Apollo GraphQL Production 환경에서 Playground 동작 안하는 현상
+
+Strapi, Heroku 환경이었음.
+
+> GraphQL introspection is not allowed by Apollo Server, graphql introspection is not allowed by apollo server but the query contained **schema or **type
+
+## Why
+
+Apollo Server introspection 옵션이 필요함.
+
+introspection 옵션은 schema, docs를 분석하는 옵션임.
+
+Production에서 introspection 옵션이 true면 보안 문제 때문에 default false
+
+## How
+
+### apolloServer.introspection: true
+
+strapi의 경우 config/plugins.ts
+
+```ts
+module.exports = ({ env }) => ({
+  graphql: {
+    config: {
+      playgroundAlways: true,
+      apolloServer: {
+        introspection: true,
+      },
+    },
+  },
+});
+```
+
+## References
+
+- [Strapi GraphQL configuration](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/optional/plugins.html#graphql-configuration)
+- [Apollo introspection](https://www.apollographql.com/docs/apollo-server/api/apollo-server/#introspection)
+- https://github.com/strapi/strapi/issues/9105#issuecomment-1080073060
