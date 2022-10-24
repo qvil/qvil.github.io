@@ -1,0 +1,21 @@
+---
+title: "[Javscript] Remove Whitespace with Jest, Emotion"
+date: 2022-10-24
+tags: [Javascript, Regex, Jest, Emotion]
+slug: javascript/remove-whitespace-with-jest-emotion
+banner: /images/js-banner.png
+---
+
+## Jest Test code에서 공백(Whitespace) 때문에 테스트를 통과 못하는 경우 필요
+
+![jest-whitespace](/images/jest-whitespace.png)
+
+## 정규식의 `\s`는 공백(Whitespace)를 뜻하므로 replace해서 해결
+
+```ts
+export const removeWhitespace = (value) => value.replace(/\s/g, "");
+```
+
+## References
+
+- https://stackoverflow.com/questions/4377480/what-does-the-regex-s-mean-in-javascript
