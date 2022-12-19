@@ -1,5 +1,5 @@
 ---
-title: "[Next.js]Image Optimization with Next Static HTML Export"
+title: "[Next.js] Image Optimization with Next Static HTML Export"
 date: 2022-11-21
 tags: [Nextjs, Image, Optimization]
 slug: nextjs/image-optimization-with-next-static-html-export
